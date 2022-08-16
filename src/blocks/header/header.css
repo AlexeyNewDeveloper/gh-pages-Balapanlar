@@ -1,0 +1,12 @@
+.header {
+    position: sticky;
+    top: 0px;
+    block-size: 120px;
+    inline-size: 100%;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    transition: block-size 0.5s ease-in-out;
+}

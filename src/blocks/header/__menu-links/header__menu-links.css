@@ -1,0 +1,5 @@
+.header__menu-links {
+    margin: 0;
+    margin-inline-start: 248px;
+    transition: margin-inline-start 0.5s ease-in-out;
+}

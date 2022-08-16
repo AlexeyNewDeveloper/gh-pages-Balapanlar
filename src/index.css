@@ -6,3 +6,26 @@
 
 @import url(./blocks/page/page.css);
 @import url(./blocks/page/__container/page__container.css);
+
+/* Block header */
+
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/_scroll/header_scroll.css);
+@import url(./blocks/header/__menu-links/header__menu-links.css);
+@import url(./blocks/header/__menu-links/_scroll/header__menu-links_scroll.css);
+@import url(./blocks/header/__button/header__button.css);
+
+/* Block logo */
+
+@import url(./blocks/logo/logo.css);
+@import url(./blocks/logo/_second-image/logo_second-image.css);
+
+/* Block header-menu-links */
+
+@import url(./blocks/header-menu-links/header-menu-links.css);
+@import url(./blocks/header-menu-links/__item/header-menu-links__item.css);
+@import url(./blocks/header-menu-links/__link/header-menu-links__link.css);
+
+/* Block button */
+
+@import url(./blocks/button/button.css);
