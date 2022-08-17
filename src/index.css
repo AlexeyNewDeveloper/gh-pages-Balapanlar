@@ -35,6 +35,7 @@
 @import url(./blocks/partners/partners.css);
 @import url(./blocks/partners/partners__title/partners__title.css);
 @import url(./blocks/partners/partners__logo-box/partners__logo-box.css);
+@import url(./blocks/partners/partners__logo-link/partners__logo-link.css);
 @import url(./blocks/partners/partners__partner-logo/partners__partner-logo.css);
 
 @import url(./blocks/popup-partner/popup-partner.css);

@@ -38,24 +38,15 @@
       </button>
     </header>
     <main class="main">
-
       <section class="partners">
         <h2 class="partners__title">Наши партнеры</h2>
         <div class="partners__logo-box">
-          <a class="partners__logo-link"> <img src="<%=require('./images/logo/partner-logo (1).png')%>"
-              class="partners__partner-logo" alt="логотип компании партнера"> </a>
-          <a class="partners__logo-link"> <img src="<%=require('./images/logo/partner-logo (2).png')%>"
-              class="partners__partner-logo" alt="логотип компании партнера"> </a>
-          <a class="partners__logo-link"> <img src="<%=require('./images/logo/partner-logo (3).png')%>"
-              class="partners__partner-logo" alt="логотип компании партнера"> </a>
         </div>
       </section>
-
     </main>
     <footer class="footer page__footer">
       <p class="footer__text">&copy; 2020 Mesto Russia</p>
     </footer>
-
     <template id="photo-grid__item">
       <li class="photo-grid__element-container">
         <button class="photo-grid__delete" type="button"></button>
@@ -69,18 +60,21 @@
         </div>
       </li>
     </template>
-
-    <div class="popup-partner popup-partner_opened">
+<template id="partners">
+    <a class="partners__logo-link"> 
+      <img src="<%=require('./images/logo/partner-logo (1).png')%>"
+      class="partners__partner-logo" alt="логотип компании партнера"> 
+    </a>
+    </template>
+    <div class="popup-partner">
       <div class="popup-partner__container">
         <div class="popup-partner__logo-box">
         <img src="<%=require('./images/logo/partner-logo (3).png')%>" class="popup-partner__logo-img"
           alt="логотип партнера"> </div>
         <h3 class="popup-partner__text">Lecturers Without Borders - сообщество молодых учёных со всего мира, которые проводят лекции и мастер-классы для школ. Среди лекторов много учёных из России. Для нас математики из Сорбонны проводили занятия по квази-кристаллам, а в будущем мы планируем привозить лекторов в наш центр.</h3>
-        <button class="popup-partner__сlose-btn" type="button" aria-label="закрыть">Закрыть</button>
+        <button class="popup-partner__close-btn" type="button" aria-label="закрыть">Закрыть</button>
       </div>
     </div>
-
-
   </div>
 </body>
 
