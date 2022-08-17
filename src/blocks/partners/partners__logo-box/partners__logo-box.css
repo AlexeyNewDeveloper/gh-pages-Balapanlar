@@ -1,0 +1,9 @@
+.partners__logo-box {
+    margin: auto;
+    max-width: 885px;
+    border: 2px solid #EAF0FF;
+    border-radius: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

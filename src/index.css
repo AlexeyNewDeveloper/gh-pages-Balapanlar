@@ -29,3 +29,20 @@
 /* Block button */
 
 @import url(./blocks/button/button.css);
+
+/* Block partners */
+
+@import url(./blocks/partners/partners.css);
+@import url(./blocks/partners/partners__title/partners__title.css);
+@import url(./blocks/partners/partners__logo-box/partners__logo-box.css);
+@import url(./blocks/partners/partners__partner-logo/partners__partner-logo.css);
+
+@import url(./blocks/popup-partner/popup-partner.css);
+@import url(./blocks/popup-partner/popup-partner__container/popup-partner__container.css);
+@import url(./blocks/popup-partner/popup-partner__logo-box/popup-partner__logo-box.css);
+@import url(./blocks/popup-partner/popup-partner__logo-img/popup-partner__logo-img.css);
+@import url(./blocks/popup-partner/popup-partner__text/popup-partner__text.css);
+@import url(./blocks/popup-partner/popup-partner__сlose-btn/popup-partner__сlose-btn.css);
+@import url(./blocks/popup-partner/popup-partner_opened/popup-partner_opened.css);
+
+
