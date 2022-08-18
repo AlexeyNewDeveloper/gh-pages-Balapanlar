@@ -1,10 +1,10 @@
-.popup-partner__logo-box{
+.popup-partner__logo-box {
     background: #FFFFFF;
-border: 2px solid #EAF0FF;
-border-radius: 60px;
-margin: 30px;
-margin-bottom: 0;
-max-width: 344px;
-height: 239px;
-display: flex;
+    border: 2px solid #EAF0FF;
+    border-radius: 60px;
+    margin: 30px;
+    margin-bottom: 0;
+    max-width: 344px;
+    height: 239px;
+    display: flex;
 }

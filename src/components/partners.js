@@ -1,6 +1,6 @@
 const ESC_CODE = "Escape";
-const partnerImage = document.querySelector(".partners__partner-logo");
-const partnerPopup = document.querySelector(".popup-partner");
+//const partnerImage = document.querySelector(".partners__partner-logo");
+export const partnerPopup = document.querySelector(".popup-partner");
 const partnerCloseBtn = document.querySelector(".popup-partner__close-btn");
 
 export const partnersList = [
@@ -34,7 +34,7 @@ partnerCloseBtn.addEventListener("click", () =>
   closePopupPartner(partnerPopup)
 );
 
-function closePopupPartner(popupElement) {
+export function closePopupPartner(popupElement) {
   popupElement.classList.remove("popup-partner_opened");
 
   document.removeEventListener("keydown", closeByEsc);

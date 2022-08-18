@@ -1,17 +1,15 @@
-.popup-partner__container{
-
-        background: #FFFFFF;
-        color: black;
-        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
-        border-radius: 10px;
-        max-width: 404px;
-        position: relative;
-        margin: auto;
-
-   }
+.popup-partner__container {
+  background: #FFFFFF;
+  color: black;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 60px;
+  max-width: 404px;
+  position: relative;
+  margin: auto;
+}
 
 @media screen and (max-width: 879px) {
-    .popup__container {
-      max-width: 282px;
-    }
+  .popup-partner__container {
+    margin: 0;
   }
+}

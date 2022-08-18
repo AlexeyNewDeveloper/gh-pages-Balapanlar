@@ -1,4 +1,6 @@
 .popup-partner__text {
+    margin: 0;
+    padding: 0;
     margin: 30px;
     max-width: 344px;
     font-family: 'Montserrat';
