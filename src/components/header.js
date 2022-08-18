@@ -10,7 +10,8 @@ export function enableChangeHeaderByScroll({newImage}) {
 }
 
 function enableChangeHeaderByScrollCallback({newImage}) {
-    if(scrollY > 15) {
+    
+    if(scrollY > 0) {
         headerMenuLinks.classList.add('header__menu-links_scroll');
         header.classList.add("header_scroll");
         headerLogo.classList.add("logo_second-image");
