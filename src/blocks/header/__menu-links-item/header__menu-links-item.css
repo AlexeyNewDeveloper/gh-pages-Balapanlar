@@ -1,0 +1,17 @@
+.header__menu-links-item {
+    /* display: inline-block; */
+    padding: 0;
+    margin: 0;
+    margin-inline-start: 30px;  
+    transition: margin-inline-start 0.2s ease-in-out;
+}
+
+.header-menu-links__item:first-of-type {
+    margin-inline-start: 0;
+}
+
+@media screen and (max-width: 1190px) {
+    .header-menu-links__item {
+        margin-inline-start: 20px;  
+    }
+}

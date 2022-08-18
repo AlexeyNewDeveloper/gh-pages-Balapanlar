@@ -5,3 +5,10 @@
     opacity: 1;
     transition: opacity 0.5s linear, inline-size 0.5s ease-in-out, block-size 0.5s ease-in-out;
 }
+
+@media screen and (max-width: 999px) {
+    .logo {
+        inline-size: 71px;
+        block-size: 70px;
+    }
+}
