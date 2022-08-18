@@ -7,9 +7,7 @@
     appearance: none;
     border: 0;
     color: white;
-    font-size: 16px;
     font-weight: 600;
-    line-height: 20px;
     white-space: nowrap;
     cursor: pointer;
 }
