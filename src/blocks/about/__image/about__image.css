@@ -1,0 +1,14 @@
+.about__image {
+  border-radius: 60px;
+  border-bottom-left-radius: 80px;
+  max-width: 100%;
+  max-height: 524px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+@media screen and (max-width: 768px) {
+  .about__image {
+    border-radius: 20px;
+    border-bottom-left-radius: 30px;
+  }
+}
