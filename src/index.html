@@ -1,34 +1,30 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Yanchev Alexey" />
-    <meta name="description" content="Проект Место. Фотоальбом" />
-    <meta name="keywords" content="Туризм, путешествия, россия, отдых, фото" />
-    <link
-      rel="shortcut icon"
-      href="<%=require('./images/favicon/logo-no-scroll.svg')%>"
-      type="image/svg"
-    />
-    <title>Балапанлар</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Yanchev Alexey" />
+  <meta name="description" content="Проект Место. Фотоальбом" />
+  <meta name="keywords" content="Туризм, путешествия, россия, отдых, фото" />
+  <link rel="shortcut icon" href="<%=require('./images/favicon/logo-no-scroll.svg')%>" type="image/svg" />
+  <title>Балапанлар</title>
+</head>
+<body class="page">
+  <div class="page__container">
+    <header class="header">
+      <div class="header__logo-container">
+        <div class="logo"></div>
+      </div>
 
-  <body class="page">
-    <div class="page__container">
-      <header class="header">
-        <div class="header__logo-container">
-          <img
-            src="<%=require('./images/logo/logo-no-scroll.svg')%>"
-            alt="Логотип Балапанлар."
-            class="logo"
-          />
-        </div>
-
-        <ul class="header-menu-links header__menu-links">
-          <li class="header-menu-links__item">
-            <a class="header-menu-links__link" href="#">Наши курсы</a>
+      <div class="header__hamburger-menu">
+        <input id="header__menu-toggle" class="header__menu-toggle"type="checkbox"/>
+        <label class="header__menu-button" for="header__menu-toggle">
+          <span class="header__icon-open-close"></span>
+        </label>
+        <ul class="header__menu-links">
+          <li class="header__menu-links-item">
+            <a class="header__menu-links-link" href="#">Наши курсы</a>
           </li>
           <li class="header-menu-links__item">
             <a class="header-menu-links__link" href="#">О нас</a>
@@ -42,36 +38,11 @@
           <li class="header-menu-links__item">
             <a class="header-menu-links__link" href="#">Поддержать проект</a>
           </li>
+          <li class="header__menu-links-item">
+            <a class="header__menu-links-button" href="#">Записаться на курсы</a>
+          </li>
         </ul>
-        <button type="button" class="button header__button">
-          Записаться на курсы
-        </button>
-      </header>
-      <main class="main">
-        <section class="partners">
-          <h2 class="partners__title">Наши партнеры</h2>
-          <div class="partners__logo-box"></div>
-        </section>
-      </main>
-      <footer class="footer page__footer">
-        <p class="footer__text">&copy; 2020 Mesto Russia</p>
-      </footer>
-      <template id="photo-grid__item">
-        <li class="photo-grid__element-container">
-          <button class="photo-grid__delete" type="button"></button>
-          <img src="#" alt="" class="photo-grid__image" />
-          <div class="photo-grid__info">
-            <h2 class="photo-grid__name"></h2>
-            <div class="photo-grid__like-area">
-              <button type="button" class="photo-grid__like-icon"></button>
-              <span class="photo-grid__likes"></span>
-            </div>
-          </div>
-        </li>
-      </ul>
-      <button type="button" class="button header__button">
-        Записаться на курсы
-      </button>
+      </div>
     </header>
     <main class="main">
       <section class="about">
@@ -146,6 +117,21 @@
             Закрыть
           </button>
         </div>
+      </li>
+    </template>
+    <template id="partners">
+    <a class="partners__logo-link"> 
+      <img src="<%=require('./images/logo/partner-logo (1).png')%>"
+      class="partners__partner-logo" alt="логотип компании партнера"> 
+    </a>
+    </template>
+    <div class="popup popup-partner">
+      <div class="popup-partner__container">
+        <div class="popup-partner__logo-box">
+        <img src="<%=require('./images/logo/partner-logo (3).png')%>" class="popup-partner__logo-img"
+          alt="логотип партнера"> </div>
+        <h3 class="popup-partner__text">Lecturers Without Borders - сообщество молодых учёных со всего мира, которые проводят лекции и мастер-классы для школ. Среди лекторов много учёных из России. Для нас математики из Сорбонны проводили занятия по квази-кристаллам, а в будущем мы планируем привозить лекторов в наш центр.</h3>
+        <button class="popup-partner__close-btn" type="button" aria-label="закрыть">Закрыть</button>
       </div>
     </div>
   </body>

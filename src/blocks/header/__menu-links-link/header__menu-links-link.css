@@ -5,17 +5,20 @@
     line-height: 22px;
     white-space: nowrap;
     transition: font-size 0.5s ease-in-out;
-}
+  }
 
+  .header__menu-links-link:hover {
+    opacity: 0.8;
+  }
 
-@media screen and (max-width: 1190px) {
-    .header-menu-links__link {
-        font-size: 14px;
+  @media screen and (max-width: 1190px) {
+    .header__menu-links-link {
+      font-size: 14px;
     }
-}
+  }
 
-@media screen and (max-width: 933px) {
-    .header-menu-links__link {
-        font-size: 12px;
+  @media screen and (max-width: 933px) {
+    .header__menu-links-link {
+      font-size: 12px;
     }
-}
+  }

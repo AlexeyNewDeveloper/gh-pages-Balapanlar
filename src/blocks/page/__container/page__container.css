@@ -2,5 +2,6 @@
     position: relative;
     inline-size: 100%;
     block-size: 100%;
+    min-inline-size: 320px;
     max-inline-size: 1440px;
 }

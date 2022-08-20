@@ -18,8 +18,10 @@
     }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 550px) {
     .header {
+        padding: 10px 15px;
         block-size: 42px;
+        justify-content: space-between;
     }
 }

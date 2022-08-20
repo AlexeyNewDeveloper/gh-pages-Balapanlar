@@ -3,26 +3,39 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    align-items: center;
     margin-inline-start: auto;
-    /* transition: margin-inline-start 0.5s ease-in-out; */
-    border: 1px solid green;
 }
 
-@media screen and (max-width: 1303px) {
+.header__menu-toggle:checked ~ .header__menu-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    visibility: visible;
+    display: block;
+    inline-size: 100%;
+    padding-block-end: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: white;
+}
+
+@media screen and (max-width: 1300px) {
     .header__menu-links {
-        margin-inline-start: 20px;
+      inline-size: 100%;
     }
-}
+  }
 
-@media screen and (max-width: 1190px) {
+  @media screen and (max-width: 870px) {
     .header__menu-links {
-        margin-inline-start: auto;
+      inline-size: auto;
+      margin-inline-start: 0;
     }
-}
+  }
 
-@media screen and (max-width: 869px) {
-    .header-menu-links {
-        display: none;
+  @media screen and (max-width: 550px) {
+    .header__menu-links {
+      display: none;
     }
-}
+  }
 

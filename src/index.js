@@ -1,7 +1,6 @@
-import "./index.css";
-import imgLogoScroll from "../src/images/logo/logo-scroll.png";
-
-import { enableChangeHeaderByScroll } from "./components/header";
+import './index.css';
+import { headerElement } from './components/constants.js';
+import { Header } from './components/header.js'
 import {
   addPartners,
   partnersList,
@@ -9,7 +8,10 @@ import {
   closePopupPartner,
 } from "./components/partners";
 
-enableChangeHeaderByScroll({ newImage: imgLogoScroll });
+//Секция с хедером
+
+const header = new Header({header: headerElement});
+header.enableHeader();
 
 //Секция с партнерами
 partnersList.forEach((item) => {
