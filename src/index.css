@@ -35,10 +35,6 @@
 @import url(./blocks/logo/_second-image/logo_second-image.css);
 @import url(./blocks/logo/_open-menu-image/logo_open-menu-image.css);
 
-/* Block button */
-
-@import url(./blocks/button/button.css);
-
 /* Block about */
 
 @import url(./blocks/about/about.css);
