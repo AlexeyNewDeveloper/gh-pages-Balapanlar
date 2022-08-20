@@ -1,0 +1,27 @@
+.about__list-item {
+  position: relative;
+  margin-top: 15px;
+}
+
+.about__list-item::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: -5px;
+  left: -36px;
+  width: 24px;
+  height: 24px;
+  background-image: url(../../../images/about/style-checkbox.svg);
+  background-size: cover;
+}
+
+.about__list-item:nth-child(1) {
+  margin: 0;
+}
+
+.about__list-item:nth-child(1)::before {
+  top: 0;
+  width: 22px;
+  height: 22px;
+  background-image: url(../../../images/about/style-location.svg);
+}

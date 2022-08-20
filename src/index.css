@@ -35,3 +35,40 @@
 @import url(./blocks/logo/_second-image/logo_second-image.css);
 @import url(./blocks/logo/_open-menu-image/logo_open-menu-image.css);
 
+/* Block button */
+
+@import url(./blocks/button/button.css);
+
+/* Block about */
+
+@import url(./blocks/about/about.css);
+@import url(./blocks/about/__title/about__title.css);
+@import url(./blocks/about/__subtitle/about__subtitle.css);
+@import url(./blocks/about/__container/about__container.css);
+@import url(./blocks/about/__frame/about__frame.css);
+@import url(./blocks/about/__figure/about__figure.css);
+@import url(./blocks/about/__image/about__image.css);
+@import url(./blocks/about/__overlay/about__overlay.css);
+@import url(./blocks/about/__overlay/_type/about__overlay_type_yellow.css);
+@import url(./blocks/about/__overlay/_type/about__overlay_type_orange.css);
+@import url(./blocks/about/__figcaption/about__figcaption.css);
+@import url(./blocks/about/__figcaption/_color/about__figcaption_color_white.css);
+@import url(./blocks/about/__list-heading/about__list-heading.css);
+@import url(./blocks/about/__list/about__list.css);
+@import url(./blocks/about/__list-item/about__list-item.css);
+
+/* Block partners */
+
+@import url(./blocks/partners/partners.css);
+@import url(./blocks/partners/partners__title/partners__title.css);
+@import url(./blocks/partners/partners__logo-box/partners__logo-box.css);
+@import url(./blocks/partners/partners__logo-link/partners__logo-link.css);
+@import url(./blocks/partners/partners__partner-logo/partners__partner-logo.css);
+
+@import url(./blocks/popup-partner/popup-partner.css);
+@import url(./blocks/popup-partner/popup-partner__container/popup-partner__container.css);
+@import url(./blocks/popup-partner/popup-partner__logo-box/popup-partner__logo-box.css);
+@import url(./blocks/popup-partner/popup-partner__logo-img/popup-partner__logo-img.css);
+@import url(./blocks/popup-partner/popup-partner__text/popup-partner__text.css);
+@import url(./blocks/popup-partner/popup-partner__сlose-btn/popup-partner__сlose-btn.css);
+@import url(./blocks/popup-partner/popup-partner_opened/popup-partner_opened.css);

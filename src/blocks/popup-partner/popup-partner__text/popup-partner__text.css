@@ -1,0 +1,12 @@
+.popup-partner__text {
+    margin: 0;
+    padding: 0;
+    margin: 30px;
+    max-width: 344px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    font-feature-settings: 'pnum'on, 'lnum'on;
+}

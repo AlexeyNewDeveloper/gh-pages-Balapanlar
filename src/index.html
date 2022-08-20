@@ -1,60 +1,126 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Yanchev Alexey" />
-    <meta name="description" content="Проект Место. Фотоальбом" />
-    <meta name="keywords" content="Туризм, путешествия, россия, отдых, фото" />
-    <link
-      rel="shortcut icon"
-      href="<%=require('./images/favicon/logo-no-scroll.svg')%>"
-      type="image/svg"
-    />
-    <title>Балапанлар</title>
-  </head>
-  <body class="page">
-    <div class="page__container">
-      <header class="header">
-        <div class="header__logo-container">
-          <div class="logo"></div>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Yanchev Alexey" />
+  <meta name="description" content="Проект Место. Фотоальбом" />
+  <meta name="keywords" content="Туризм, путешествия, россия, отдых, фото" />
+  <link rel="shortcut icon" href="<%=require('./images/favicon/logo-no-scroll.svg')%>" type="image/svg" />
+  <title>Балапанлар</title>
+</head>
+<body class="page">
+  <div class="page__container">
+    <header class="header">
+      <div class="header__logo-container">
+        <div class="logo"></div>
+      </div>
 
-        <div class="header__hamburger-menu">
-          <input
-            id="header__menu-toggle"
-            class="header__menu-toggle"
-            type="checkbox"
-          />
-          <label class="header__menu-button" for="header__menu-toggle">
-            <span class="header__icon-open-close"></span>
-          </label>
-          <ul class="header__menu-links">
-            <li class="header__menu-links-item">
-              <a class="header__menu-links-link" href="#">Наши курсы</a>
-            </li>
-            <li class="header__menu-links-item">
-              <a class="header__menu-links-link" href="#">О нас</a>
-            </li>
-            <li class="header__menu-links-item">
-              <a class="header__menu-links-link" href="#">Команда</a>
-            </li>
-            <li class="header__menu-links-item">
-              <a class="header__menu-links-link" href="#">Как нас найти</a>
-            </li>
-            <li class="header__menu-links-item">
-              <a class="header__menu-links-link" href="#">Поддержать проект</a>
-            </li>
-            <li class="header__menu-links-item">
-              <a class="header__menu-links-button" href="#"
-                >Записаться на курсы</a
-              >
-            </li>
-          </ul>
+      <div class="header__hamburger-menu">
+        <input id="header__menu-toggle" class="header__menu-toggle"type="checkbox"/>
+        <label class="header__menu-button" for="header__menu-toggle">
+          <span class="header__icon-open-close"></span>
+        </label>
+        <ul class="header__menu-links">
+          <li class="header__menu-links-item">
+            <a class="header__menu-links-link" href="#">Наши курсы</a>
+          </li>
+          <li class="header__menu-links-item">
+            <a class="header__menu-links-link" href="#">О нас</a>
+          </li>
+          <li class="header__menu-links-item">
+            <a class="header__menu-links-link" href="#">Команда</a>
+          </li>
+          <li class="header__menu-links-item">
+            <a class="header__menu-links-link" href="#">Как нас найти</a>
+          </li>
+          <li class="header__menu-links-item">
+            <a class="header__menu-links-link" href="#">Поддержать проект</a>
+          </li>
+          <li class="header__menu-links-item">
+            <a class="header__menu-links-button" href="#">Записаться на курсы</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="main">
+      <section class="about">
+        <h2 class="about__title">О нас</h2>
+        <h3 class="about__subtitle">Мы привозим лучшие практики неформального образования для тех, кто не может позволить своим детям полноценно развиваться</h3>
+        <div class="about__container">
+          <article class="about__frame">
+            <figure class="about__figure">
+              <img class="about__image" src="<%=require('./images/about/uya.jpg')%>" alt="Досуговый центр «Уя»">
+              <div class="about__overlay about__overlay_type_yellow"></div>
+              <figcaption class="about__figcaption">Досуговый центр «Уя»</figcaption>
+            </figure>
+            <h4 class="about__list-heading">– это место для общения, учёбы, встреч и досуга аульских детей. В наши летние школы мы тоже привозим самые разные практики, чтобы наши студенты могли попробовать то, что в их ауле/селе недоступно — это совершенно бесплатно</h4>
+            <ul class="about__list">
+              <li class="about__list-item">Аул Икон-Халк, Карачаево-Черкесия</li>
+              <li class="about__list-item">Занятия весь год</li>
+              <li class="about__list-item">Углублённый подход к темам </li>
+              <li class="about__list-item">Небольшие группы </li>
+              <li class="about__list-item">Местные преподаватели, которые всегда на связи</li>
+              <li class="about__list-item">Постоянная площадка, где все могут приходить в любое время, общаться, учиться и учить, читать книги, смотреть кино и слушать интересные лекции</li>
+            </ul>
+          </article>
+          <article class="about__frame">
+            <figure class="about__figure">
+              <img class="about__image" src="<%=require('./images/about/balapanlar.jpg')%>" alt="Летние школы «Балапанлар»">
+              <div class="about__overlay about__overlay_type_orange"></div>
+              <figcaption class="about__figcaption about__figcaption_color_white">Летние школы «Балапанлар»</figcaption>
+            </figure>
+            <h4 class="about__list-heading">– это 12-дневная неформальная программа для детей в аулах и сёлах. Наша команда и преподаватели приезжают к местным детям и проводят с ними самые разные занятия: астрономия, математика, языки, йога, театр, музыка и др.</h4>
+            <ul class="about__list">
+              <li class="about__list-item">Аул Икон-Халк, Карачаево-Черкесия</li>
+              <li class="about__list-item">Занятия только в каникулы</li>
+              <li class="about__list-item">Много разных занятий сразу</li>
+              <li class="about__list-item">Небольшие группы, но много участников сразу</li>
+              <li class="about__list-item">Преподаватели со всей России, вдохновляющие своим примером </li>
+              <li class="about__list-item">Компания совершенно разных талантливых людей, с которыми можно воплотить самую дерзкую идею</li>
+            </ul>
+          </article>
         </div>
-      </header>
-      <main class="main"></main>
+      </section>
+      <section class="partners">
+        <h2 class="partners__title">Наши партнеры</h2>
+        <div class="partners__logo-box">
+        </div>
+      </section>
+    </main>
+    <footer class="footer page__footer">
+      <p class="footer__text">&copy; 2020 Mesto Russia</p>
+    </footer>
+    <template id="photo-grid__item">
+      <li class="photo-grid__element-container">
+        <button class="photo-grid__delete" type="button"></button>
+        <img src="#" alt="" class="photo-grid__image" />
+        <div class="photo-grid__info">
+          <h2 class="photo-grid__name"></h2>
+          <div class="photo-grid__like-area">
+            <button type="button" class="photo-grid__like-icon"></button>
+            <span class="photo-grid__likes"></span>
+          </div>
+        </div>
+      </li>
+    </template>
+    <template id="partners">
+    <a class="partners__logo-link"> 
+      <img src="<%=require('./images/logo/partner-logo (1).png')%>"
+      class="partners__partner-logo" alt="логотип компании партнера"> 
+    </a>
+    </template>
+    <div class="popup popup-partner">
+      <div class="popup-partner__container">
+        <div class="popup-partner__logo-box">
+        <img src="<%=require('./images/logo/partner-logo (3).png')%>" class="popup-partner__logo-img"
+          alt="логотип партнера"> </div>
+        <h3 class="popup-partner__text">Lecturers Without Borders - сообщество молодых учёных со всего мира, которые проводят лекции и мастер-классы для школ. Среди лекторов много учёных из России. Для нас математики из Сорбонны проводили занятия по квази-кристаллам, а в будущем мы планируем привозить лекторов в наш центр.</h3>
+        <button class="popup-partner__close-btn" type="button" aria-label="закрыть">Закрыть</button>
+      </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
