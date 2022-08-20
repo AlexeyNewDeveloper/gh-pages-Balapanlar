@@ -6,4 +6,5 @@
     flex-direction: column;
     align-items: center;
     height: 2000px;
+    inline-size: 100%;
 }

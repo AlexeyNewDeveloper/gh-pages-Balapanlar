@@ -18,34 +18,41 @@
     <div class="page__container">
       <header class="header">
         <div class="header__logo-container">
-          <img
-            src="<%=require('./images/logo/logo-no-scroll.svg')%>"
-            alt="Логотип Балапанлар."
-            class="logo"
-          />
+          <div class="logo"></div>
         </div>
 
-        <ul class="header__menu-links">
-          <li class="header__menu-links-item">
-            <a class="header__menu-links-link" href="#">Наши курсы</a>
-          </li>
-          <li class="header__menu-links-item">
-            <a class="header__menu-links-link" href="#">О нас</a>
-          </li>
-          <li class="header__menu-links-item">
-            <a class="header__menu-links-link" href="#">Команда</a>
-          </li>
-          <li class="header__menu-links-item">
-            <a class="header__menu-links-link" href="#">Как нас найти</a>
-          </li>
-          <li class="header__menu-links-item">
-            <a class="header__menu-links-link" href="#">Поддержать проект</a>
-          </li>
-        </ul>
-        <div class="menu-image header__menu-image"></div>
-        <button type="button" class="button header__button">
-          Записаться на курсы
-        </button>
+        <div class="header__hamburger-menu">
+          <input
+            id="header__menu-toggle"
+            class="header__menu-toggle"
+            type="checkbox"
+          />
+          <label class="header__menu-button" for="header__menu-toggle">
+            <span class="header__icon-open-close"></span>
+          </label>
+          <ul class="header__menu-links">
+            <li class="header__menu-links-item">
+              <a class="header__menu-links-link" href="#">Наши курсы</a>
+            </li>
+            <li class="header__menu-links-item">
+              <a class="header__menu-links-link" href="#">О нас</a>
+            </li>
+            <li class="header__menu-links-item">
+              <a class="header__menu-links-link" href="#">Команда</a>
+            </li>
+            <li class="header__menu-links-item">
+              <a class="header__menu-links-link" href="#">Как нас найти</a>
+            </li>
+            <li class="header__menu-links-item">
+              <a class="header__menu-links-link" href="#">Поддержать проект</a>
+            </li>
+            <li class="header__menu-links-item">
+              <a class="header__menu-links-button" href="#"
+                >Записаться на курсы</a
+              >
+            </li>
+          </ul>
+        </div>
       </header>
       <main class="main"></main>
     </div>

@@ -1,8 +1,9 @@
 import './index.css';
-import imgLogoScroll from '../src/images/logo/logo-scroll.png';
 
-import { enableChangeHeaderByScroll } from './components/header';
+import { headerElement } from './components/constants.js';
+import { Header } from './components/header.js'
 
 
 
-enableChangeHeaderByScroll({newImage: imgLogoScroll});
+const header = new Header({header: headerElement});
+header.enableHeader();
