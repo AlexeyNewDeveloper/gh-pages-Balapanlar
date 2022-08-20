@@ -19,6 +19,13 @@ export class Header {
     }
 
     _enableChangeHeaderByScrollCallback() {
+
+        if(this.menuToggle.checked) {
+            this.menuToggle.checked = false;
+            this.headerLogo.classList.remove('logo_open-menu-image');
+            this.header.classList.remove('header_open-menu');
+        }
+
         if(scrollY > 0 && !this.menuToggle.checked) {
             if(parseInt(window.getComputedStyle(this.header).blockSize) > 80) {
                 this.header.classList.add('header_scroll');
