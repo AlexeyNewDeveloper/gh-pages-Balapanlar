@@ -1,0 +1,39 @@
+.header__menu-button {
+    display: none;
+    position: relative;
+    inline-size: 38px;
+    block-size: 14px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .header__menu-toggle:checked ~ .header__menu-button {
+    inline-size: 38px;
+    block-size: 38px;
+    margin-bottom: auto;
+  }
+
+  @media screen and (max-width: 870px) {
+    .header__menu-button {
+      display: flex;
+      margin-inline-start: auto;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    .header__menu-button {
+      inline-size: 22px;
+      block-size: 8px;
+    }
+
+    .header__menu-toggle:checked ~ .header__menu-button {
+        inline-size: 22px;
+        block-size: 22px;
+        margin-bottom: auto;
+      }
+  }
+
+ 

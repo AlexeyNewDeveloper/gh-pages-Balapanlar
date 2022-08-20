@@ -1,0 +1,5 @@
+.header__logo-container_position_center {
+    margin-inline-start: calc(50% - 75px);
+    justify-content: center;
+}
+

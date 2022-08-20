@@ -1,3 +1,31 @@
 .header__logo-container {
-    inline-size: 100%;
+    display: flex;
+    flex-basis: 192px;
+    flex-shrink: 0;
+    block-size: 100%;
+    align-items: center;
+    transition: flex-basis 0.5s ease-in-out;
 }
+
+@media screen and (max-width: 999px) {
+    .header__logo-container {
+        flex-basis: 150px;
+        
+    }
+}
+
+/* @media screen and (max-width: 550px) {
+    .header__logo-container {
+        margin-inline-start: calc(50% - 75px);
+        justify-content: center;
+    }
+} */
+
+
+
+/* @media screen and (max-width: 550px) {
+    .header:has(.menu__toggle:checked) ~ .header__logo-container{
+        margin-inline-start: 300px;
+        
+    }
+} */

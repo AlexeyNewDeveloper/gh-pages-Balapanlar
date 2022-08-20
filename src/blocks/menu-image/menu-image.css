@@ -1,0 +1,16 @@
+.menu-image {
+    display: none;
+    inline-size: 38px;
+    block-size: 14px;
+    background-image: url(../../images/menu-image/menu-image.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+@media screen and (max-width: 869px) {
+    .menu-image {
+        display: inline-block;
+    }
+}

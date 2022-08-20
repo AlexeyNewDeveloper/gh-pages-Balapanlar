@@ -10,3 +10,18 @@
     align-items: center;
     transition: block-size 0.5s ease-in-out;
 }
+
+
+@media screen and (max-width: 869px) {
+    .header {
+        block-size: 90px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .header {
+        padding: 10px 15px;
+        block-size: 42px;
+        justify-content: space-between;
+    }
+}
