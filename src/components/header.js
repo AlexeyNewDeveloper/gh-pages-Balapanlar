@@ -12,6 +12,15 @@ export class Header {
         this.headerMenuLinks = this.header.querySelector('.header__menu-links');
         this.headerMenuLinksItem = this.header.querySelector('.header__menu-links-item');
         this.scrollFlag = false;
+        this.currentScrollY = 0;
+    }
+
+    _closeMenuHamburger() {
+        this.menuToggle.checked = false;
+        this.headerLogo.classList.remove('logo_open-menu-image');
+        this.header.classList.remove('header_open-menu');
+        this.header.classList.remove('logo_second-image');
+        this.headerLogoContainer.classList.remove('header__logo-container_position_center');
     }
 
     _enableChangeHeaderByScroll() {
@@ -19,8 +28,12 @@ export class Header {
     }
 
     _enableChangeHeaderByScrollCallback() {
+
+        let diffScroll = scrollY - this.currentScrollY;
+        this.currentScrollY = scrollY;
+
         if(scrollY > 0 && !this.menuToggle.checked) {
-            if(parseInt(window.getComputedStyle(this.header).blockSize) > 80) {
+            if(parseInt(window.getComputedStyle(this.header).blockSize) > 80 && this.menuToggle.checked) {
                 this.header.classList.add('header_scroll');
             }
             this.headerLogo.classList.add('logo_second-image');
@@ -31,6 +44,11 @@ export class Header {
             }
             this.headerLogo.classList.remove('logo_second-image');
             this.scrollFlag = false;
+        }
+
+        if(this.menuToggle.checked
+            && diffScroll > 20) {
+            this._closeMenuHamburger();
         }
     }
 
@@ -49,9 +67,7 @@ export class Header {
     
             if(window.matchMedia('(min-width: 870px)').matches
             && this.menuToggle.checked) {
-                this.menuToggle.checked = false;
-                this.headerLogo.classList.remove('logo_open-menu-image');
-                this.header.classList.remove('header_open-menu');
+                this._closeMenuHamburger();
             }
     
         });

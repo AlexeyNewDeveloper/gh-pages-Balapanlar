@@ -1,9 +1,9 @@
 .about__figure {
   aspect-ratio: 595 / 524;
-  min-width: 290px;
-  min-height: 256px;
   margin: 0 0 40px;
   position: relative;
+  width: 100%;
+  font-size: 0;
 }
 
 @media screen and (max-width: 768px) {
