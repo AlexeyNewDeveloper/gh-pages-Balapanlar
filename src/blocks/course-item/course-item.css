@@ -1,0 +1,25 @@
+.course-item {
+  background-color: #FFF;
+  border-radius: 60px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 768px) {
+  .course-item {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .course-item {
+    border-radius: 30px;
+    padding: 15px;
+  }
+}

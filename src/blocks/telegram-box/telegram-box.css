@@ -1,0 +1,15 @@
+.telegram-box {
+  margin-bottom: 10px;
+  border-radius: 60px;
+  background-color: #AE46FF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 83.33%;
+}
+
+@media screen and (max-width: 630px) {
+  .telegram-box {
+    display: none;
+  }
+}

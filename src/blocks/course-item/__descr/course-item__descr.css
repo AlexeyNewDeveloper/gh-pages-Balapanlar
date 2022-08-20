@@ -1,0 +1,11 @@
+.course-item__descr {
+  margin: 0 0 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 500px) {
+  .course-item__descr {
+    margin-bottom: 20px;
+  }
+}

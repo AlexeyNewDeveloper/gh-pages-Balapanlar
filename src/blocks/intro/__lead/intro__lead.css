@@ -1,0 +1,24 @@
+.intro__lead {
+  height: 852px;
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  background: url(../../../images/intro/intro.png) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 60px;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__lead {
+    max-height: 100vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .intro__lead {
+    border-radius: 30px;
+  }
+}
