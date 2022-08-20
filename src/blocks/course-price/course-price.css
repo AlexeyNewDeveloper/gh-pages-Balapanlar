@@ -3,9 +3,21 @@
   border-radius: 60px;
   color: #000;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, auto);
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
   grid-gap: 0 10px;
   padding: 30px;
   margin: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .course-price {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media screen and (max-width: 665px) {
+  .course-price {
+    column-gap: 0;
+  }
 }

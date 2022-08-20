@@ -80,9 +80,12 @@
 @import url(./blocks/course-price/__title/course-price__title.css);
 @import url(./blocks/course-price/__ext-link/course-price__ext-link.css);
 @import url(./blocks/course-price/__list-name/course-price__list-name.css);
+@import url(./blocks/course-price/__list/course-price__list.css);
+@import url(./blocks/course-price/__list/_included/course-price__list_included.css);
+@import url(./blocks/course-price/__list/_not-included/course-price__list_not-included.css);
 @import url(./blocks/descr-list/descr-list.css);
 @import url(./blocks/descr-list/__item/descr-list__item.css);
-@import url(./blocks/descr-list/__pic/descr-list__pic.css);
+@import url(./blocks/descr-list/__item/_cross/descr-list__item_cross.css);
 
 /* Block about */
 
