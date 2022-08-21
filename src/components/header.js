@@ -33,7 +33,7 @@ export class Header {
         this.currentScrollY = scrollY;
 
         if(scrollY > 0 && !this.menuToggle.checked) {
-            if(parseInt(window.getComputedStyle(this.header).blockSize) > 80 && this.menuToggle.checked) {
+            if(parseInt(window.getComputedStyle(this.header).blockSize) > 80) {
                 this.header.classList.add('header_scroll');
             }
             this.headerLogo.classList.add('logo_second-image');
