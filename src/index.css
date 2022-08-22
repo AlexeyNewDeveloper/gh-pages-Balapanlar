@@ -32,4 +32,66 @@
 
 /*Block principles */
 
+.principles {
+    min-width: 1440px;
+    background-color: #AE46FF;
+    border-radius: 60px;
+    margin: 0 0 0 -110px;
+}
 
+.principles:first-of-type {
+    margin: 0;
+}
+
+.principles__title {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -1px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.principles__text {
+    margin: 40px 0 0 0;
+    padding: 0 0 160px 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 68px;
+    text-align: center;
+    letter-spacing: -1px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.principles__image {
+    width: 610px;
+    height: 420px;
+    border-radius: 500px;
+}
+
+.principles__container {
+    display: flex;
+    height: 1000px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.scroll-container {
+    display: flex;    
+}
+
+.test {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid red;
+}
