@@ -1,0 +1,17 @@
+#courses {
+  margin: 0 auto;
+  max-width: 1220px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1420px) {
+  #courses {
+    max-width: 85%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #courses {
+    max-width: 100%;
+  }
+}
