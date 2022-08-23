@@ -18,6 +18,7 @@
 @import url(./blocks/header/__logo-container/_position_center/header__logo-container_position_center.css);
 @import url(./blocks/header/_scroll/header_scroll.css);
 @import url(./blocks/header/_open-menu/header_open-menu.css);
+@import url(./blocks/header/__navigation/header__navigation.css);
 @import url(./blocks/header/__menu-links/header__menu-links.css);
 @import url(./blocks/header/__hamburger-menu/header__hamburger-menu.css);
 @import url(./blocks/header/__menu-image/header__menu-image.css);
