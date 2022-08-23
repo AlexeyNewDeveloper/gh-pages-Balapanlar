@@ -1,0 +1,13 @@
+.course-item__paragraph {
+  margin: 0 0 15px;
+}
+
+.course-item__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .course-item__paragraph {
+    margin-bottom: 20px;
+  }
+}

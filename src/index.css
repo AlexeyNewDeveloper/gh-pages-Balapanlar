@@ -7,6 +7,10 @@
 @import url(./blocks/page/page.css);
 @import url(./blocks/page/__container/page__container.css);
 
+/* Links */
+
+@import url(./blocks/ext-links/ext-links.css);
+
 /* Block header */
 
 @import url(./blocks/header/header.css);
@@ -34,6 +38,54 @@
 @import url(./blocks/logo/logo.css);
 @import url(./blocks/logo/_second-image/logo_second-image.css);
 @import url(./blocks/logo/_open-menu-image/logo_open-menu-image.css);
+
+
+/* Block intro */
+
+@import url(./blocks/intro/intro.css);
+@import url(./blocks/intro/__lead/intro__lead.css);
+@import url(./blocks/intro/__title/intro__title.css);
+@import url(./blocks/intro/__ext-link/intro__ext-link.css);
+@import url(./blocks/intro/__description/intro__description.css);
+@import url(./blocks/telegram-box/telegram-box.css);
+@import url(./blocks/telegram-box/__pic/telegram-box__pic.css);
+@import url(./blocks/telegram-box/__text/telegram-box__text.css);
+@import url(./blocks/telegram-box/__ext-link/telegram-box__ext-link.css);
+
+
+/* Block courses */
+
+@import url(./blocks/courses/courses.css);
+@import url(./blocks/courses/__title/courses__title.css);
+@import url(./blocks/programming/programming.css);
+@import url(./blocks/programming/__title/programming__title.css);
+@import url(./blocks/programming/__text/programming__text.css);
+@import url(./blocks/programming/__grid/programming__grid.css);
+@import url(./blocks/course-item/course-item.css);
+@import url(./blocks/course-item/__wrap/course-item__wrap.css);
+@import url(./blocks/course-item/__name/course-item__name.css);
+@import url(./blocks/req-list/req-list.css);
+@import url(./blocks/req-list/__pic/req-list__pic.css);
+@import url(./blocks/req-list/__item/req-list__item.css);
+@import url(./blocks/tag-list/tag-list.css);
+@import url(./blocks/tag-list/__tag/tag-list__tag.css);
+@import url(./blocks/course-item/__descr/course-item__descr.css);
+@import url(./blocks/course-item/__paragraph/course-item__paragraph.css);
+@import url(./blocks/ord-list/ord-list.css);
+@import url(./blocks/course-item/__links/course-item__links.css);
+@import url(./blocks/course-item/__ext-link/course-item__ext-link.css);
+@import url(./blocks/course-item/__browse/course-item__browse.css);
+@import url(./blocks/other-grid/other-grid.css);
+@import url(./blocks/course-price/course-price.css);
+@import url(./blocks/course-price/__title/course-price__title.css);
+@import url(./blocks/course-price/__ext-link/course-price__ext-link.css);
+@import url(./blocks/course-price/__list-name/course-price__list-name.css);
+@import url(./blocks/course-price/__list/course-price__list.css);
+@import url(./blocks/course-price/__list/_included/course-price__list_included.css);
+@import url(./blocks/course-price/__list/_not-included/course-price__list_not-included.css);
+@import url(./blocks/descr-list/descr-list.css);
+@import url(./blocks/descr-list/__item/descr-list__item.css);
+@import url(./blocks/descr-list/__item/_cross/descr-list__item_cross.css);
 
 /* Block about */
 
