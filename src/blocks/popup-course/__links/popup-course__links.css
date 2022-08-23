@@ -1,0 +1,13 @@
+.popup-course__links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: auto;  
+}
+
+@media screen and (max-width: 500px) {
+  .popup-course__links {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+}

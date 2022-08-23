@@ -1,6 +1,7 @@
 import './index.css';
 import { headerElement } from './components/constants.js';
-import { Header } from './components/header.js'
+import { Header } from './components/header.js';
+import './components/courses.js';
 import {
   addPartners,
   partnersList,
