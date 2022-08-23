@@ -63,9 +63,9 @@
 @import url(./blocks/programming/__text/programming__text.css);
 @import url(./blocks/programming/__grid/programming__grid.css);
 @import url(./blocks/course-item/course-item.css);
-@import url(./blocks/course-item/__wrap/course-item__wrap.css);
 @import url(./blocks/course-item/__name/course-item__name.css);
 @import url(./blocks/req-list/req-list.css);
+@import url(./blocks/req-list/_wrap/req-list_wrap.css);
 @import url(./blocks/req-list/__pic/req-list__pic.css);
 @import url(./blocks/req-list/__item/req-list__item.css);
 @import url(./blocks/tag-list/tag-list.css);
@@ -121,3 +121,22 @@
 @import url(./blocks/popup-partner/popup-partner__text/popup-partner__text.css);
 @import url(./blocks/popup-partner/popup-partner__сlose-btn/popup-partner__сlose-btn.css);
 @import url(./blocks/popup-partner/popup-partner_opened/popup-partner_opened.css);
+
+/* Popups */
+
+@import url(./blocks/popup/popup.css);
+@import url(./blocks/popup/_opened/popup_opened.css);
+@import url(./blocks/popup/__container/popup__container.css);
+@import url(./blocks/popup/__close-btn/popup__close-btn.css);
+
+/* Course popup */
+
+@import url(./blocks/popup-course/popup-course.css);
+@import url(./blocks/popup-course/__item/popup-course__item.css);
+@import url(./blocks/popup-course/__name/popup-course__name.css);
+@import url(./blocks/popup-course/__descr/popup-course__descr.css);
+@import url(./blocks/popup-course/__paragraph/popup-course__paragraph.css);
+@import url(./blocks/popup-course/__grid/popup-course__grid.css);
+@import url(./blocks/popup-course/__links/popup-course__links.css);
+@import url(./blocks/popup-course/__ext-link/popup-course__ext-link.css);
+@import url(./blocks/popup-course/__close-btn/popup-course__close-btn.css);

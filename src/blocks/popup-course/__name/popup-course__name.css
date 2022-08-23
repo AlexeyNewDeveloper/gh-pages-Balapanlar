@@ -1,0 +1,17 @@
+.popup-course__name {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -1px;
+  color: #000;
+  margin: 0 0 30px;  
+}
+
+@media screen and (max-width: 480px) {
+  .popup-course__name {
+    letter-spacing: -0.5px;
+    font-size: 7.500vw;
+    line-height: 9.063vw;
+    margin-bottom: 20px;
+  }
+}
