@@ -10,3 +10,16 @@
     line-height: 22px;
     font-feature-settings: 'pnum'on, 'lnum'on;
 }
+
+
+@media screen and (max-width: 1023px) {
+    .popup-partner__text {
+        margin: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .popup-partner__text {
+        margin: 30px 15px;
+    }
+}
