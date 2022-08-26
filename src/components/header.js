@@ -29,11 +29,12 @@ export class Header {
 
     _enableChangeHeaderByScrollCallback() {
 
+
         let diffScroll = scrollY - this.currentScrollY;
         this.currentScrollY = scrollY;
 
         if(scrollY > 0 && !this.menuToggle.checked) {
-            if(parseInt(window.getComputedStyle(this.header).blockSize) > 80 && this.menuToggle.checked) {
+            if(parseInt(window.getComputedStyle(this.header).blockSize) > 80) {
                 this.header.classList.add('header_scroll');
             }
             this.headerLogo.classList.add('logo_second-image');
@@ -46,8 +47,10 @@ export class Header {
             this.scrollFlag = false;
         }
 
+
         if(this.menuToggle.checked
-            && diffScroll > 20) {
+            && diffScroll > 35
+            || diffScroll < -35) {
             this._closeMenuHamburger();
         }
     }

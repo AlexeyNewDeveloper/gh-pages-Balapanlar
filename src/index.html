@@ -30,32 +30,374 @@
           <label class="header__menu-button" for="header__menu-toggle">
             <span class="header__icon-open-close"></span>
           </label>
-          <ul class="header__menu-links">
-            <li class="header__menu-links-item">
-              <a class="header__menu-links-link" href="#">Наши курсы</a>
-            </li>
-            <li class="header__menu-links-item">
-              <a class="header__menu-links-link" href="#">О нас</a>
-            </li>
-            <li class="header__menu-links-item">
-              <a class="header__menu-links-link" href="#">Команда</a>
-            </li>
-            <li class="header__menu-links-item">
-              <a class="header__menu-links-link" href="#">Как нас найти</a>
-            </li>
-            <li class="header__menu-links-item">
-              <a class="header__menu-links-link" href="#">Поддержать проект</a>
-            </li>
-            <li class="header__menu-links-item">
-              <a class="header__menu-links-button" href="#"
-                >Записаться на курсы</a
-              >
-            </li>
-          </ul>
+          <nav class="header__navigation">
+            <ul class="header__menu-links">
+              <li class="header__menu-links-item">
+                <a class="header__menu-links-link" href="#courses"
+                  >Наши курсы</a
+                >
+              </li>
+              <li class="header__menu-links-item">
+                <a class="header__menu-links-link" href="#about">О нас</a>
+              </li>
+              <li class="header__menu-links-item">
+                <a class="header__menu-links-link" href="#">Команда</a>
+              </li>
+              <li class="header__menu-links-item">
+                <a class="header__menu-links-link" href="#">Как нас найти</a>
+              </li>
+              <li class="header__menu-links-item">
+                <a class="header__menu-links-link" href="#"
+                  >Поддержать проект</a
+                >
+              </li>
+              <li class="header__menu-links-item">
+                <a class="header__menu-links-button" href="#"
+                  >Записаться на курсы</a
+                >
+              </li>
+            </ul>
+          </nav>
         </div>
       </header>
       <main class="main">
-        <section class="about">
+        <section class="intro">
+          <div class="intro__lead">
+            <h1 class="intro__title">
+              Досуг&nbsp;и&nbsp;курсы для&nbsp;детей
+              в&nbsp;аулах&nbsp;и&nbsp;сёлах
+            </h1>
+            <a class="ext-links intro__ext-link" href="#"
+              >Записаться на курсы</a
+            >
+            <div class="telegram-box">
+              <img
+                class="telegram-box__pic"
+                src="<%=require('./images/intro/telegram-pic.png')%>"
+                alt="Досуговый центр «Уя»"
+              />
+              <p class="telegram-box__text">
+                Следите за последними анонсами и событиями “Уя” в нашем Telegram
+                канале
+              </p>
+              <a class="ext-links telegram-box__ext-link" href="#"
+                >Подписаться</a
+              >
+            </div>
+          </div>
+          <p class="intro__description">
+            Каждый ребёнок талантлив по-своему. Наша цель — дать детям
+            возможность раскрыть свои таланты, получить хорошие современные
+            знания в ауле, и стать успешным и счастливым взрослым.
+          </p>
+        </section>
+        <section id="courses">
+          <h2 class="courses__title">Наши курсы</h2>
+          <div class="programming">
+            <h4 class="programming__title">Программирование</h4>
+            <p class="programming__text">
+              Наши курсы программирования созданы в международной школе
+              «Алгоритмика». Их программы уже успешно работают в 55 странах
+              и по ним занимаются 250 тыс. студентов. Благодаря онлайн-платформе
+              каждое занятие детей отслеживают кураторы головного офиса и дают
+              советы нашим преподавателям на местах.
+            </p>
+            <div class="programming__grid">
+              <div class="course-item">
+                <h4 class="course-item__name">Python Start</h4>
+                <ul class="req-list">
+                  <li class="req-list__item">
+                    <img
+                      class="req-list__pic"
+                      src="<%=require('./images/courses/ppl.png')%>"
+                    />группы 8+ лет
+                  </li>
+                  <li class="req-list__item">
+                    <img
+                      class="req-list__pic"
+                      src="<%=require('./images/courses/clock.png')%>"
+                    />блоки по 3 месяца
+                  </li>
+                </ul>
+                <ul class="tag-list">
+                  <li class="tag-list__tag">язык Python</li>
+                  <li class="tag-list__tag">разработка своих проектов</li>
+                  <li class="tag-list__tag">создание своего портфолио</li>
+                  <li class="tag-list__tag">создание web-сайтов</li>
+                </ul>
+                <div class="course-item__descr">
+                  <p class="course-item__paragraph">
+                    Студенты к концу курса будут сами создавать приложения. А
+                    ещё они научатся:
+                  </p>
+
+                  <ol class="ord-list">
+                    <li class="ord-list__item">
+                      Разбираться в основах алгоритмики
+                      и объектно-ориентированного программирования...
+                    </li>
+                  </ol>
+
+                  <!--
+                      <ul class="descr-list">
+                        <li class="descr-list__item">
+                          <img
+                              class="descr-list__pic"
+                              src="./images/courses/arrow.png"
+                            />Разбираться в основах алгоритмики и объектно-ориентированного программирования
+                        </li>
+                        <li class="descr-list__item">
+                          <img
+                              class="descr-list__pic"
+                              src="./images/courses/arrow.png"
+                            />Разрабатывать графические интерактивные игры для ПК, используя библиотеку PyGame
+                        </li>
+                        <li class="descr-list__item">
+                          <img
+                              class="descr-list__pic"
+                              src="./images/courses/arrow.png"
+                            />Работать с графикой и использовать библиотеку Turtle
+                        </li>
+                        <li class="descr-list__item">
+                          <img
+                              class="descr-list__pic"
+                              src="./images/courses/arrow.png"
+                            />Решать реальные задачи, используя Python, и применять итеративный подход
+                        </li>
+                        <li class="descr-list__item">
+                          <img
+                              class="descr-list__pic"
+                              src="./images/courses/arrow.png"
+                            />Применять принципы проектной работы при создании проектов
+                        </li>
+                      </ul>
+                      <ul class="descr-list">
+                        <li class="descr-list__item">
+                          <img
+                              class="descr-list__pic"
+                              src="./images/courses/arrow.png"
+                            />Писать и читать код на языке Python и работать со структурами данных
+                        </li>
+                        <li class="descr-list__item">
+                          <img
+                              class="descr-list__pic"
+                              src="./images/courses/arrow.png"
+                            />Разрабатывать сложные игры и приложения для ПК, используя библиотеки PyGame и PyQT
+                        </li>
+                        <li class="descr-list__item">
+                          <img
+                              class="descr-list__pic"
+                              src="./images/courses/arrow.png"
+                            />Проектировать интерфейсы
+                        </li>
+                        <li class="descr-list__item">
+                          <img
+                              class="descr-list__pic"
+                              src="./images/courses/arrow.png"
+                            />Автоматизировать работу с графическими файлами
+                        </li>
+                        <li class="descr-list__item">
+                          <img
+                              class="descr-list__pic"
+                              src="./images/courses/arrow.png"
+                            />Работать в команде и создавать проекты от идеи до их публичной презентации
+                        </li>
+                      </ul>    
+                      -->
+                </div>
+                <div class="course-item__links">
+                  <a class="ext-links course-item__ext-link" href="#"
+                    >Записаться</a
+                  >
+                  <button class="course-item__browse">
+                    Смотреть все навыки
+                  </button>
+                </div>
+              </div>
+              <div class="course-item">
+                <h4 class="course-item__name">Создание web-сайтов</h4>
+                <ul class="req-list">
+                  <li class="req-list__item">
+                    <img
+                      class="req-list__pic"
+                      src="<%=require('./images/courses/ppl.png')%>"
+                    />группы 11–13 лет
+                  </li>
+                  <li class="req-list__item">
+                    <img
+                      class="req-list__pic"
+                      src="<%=require('./images/courses/clock.png')%>"
+                    />1 год, блоками по 3 месяца
+                  </li>
+                </ul>
+                <ul class="tag-list">
+                  <li class="tag-list__tag">web-разработка</li>
+                  <li class="tag-list__tag">основы программирования</li>
+                </ul>
+                <div class="course-item__descr">
+                  <p class="course-item__paragraph">
+                    На нашем курсе студенты освоят создание web-сайтов, узнают
+                    об отличиях и особенностях платформ, поймут, как работает
+                    аналитика и алгоритмы поиска.
+                  </p>
+                  <p class="course-item__paragraph">
+                    Это как самостоятельная, так и командная работа: разработка
+                    самого сайта, создание дизайна и контента позволяют
+                    окунуться с головой и приобрести действительно нужный
+                    и актуальный навык.
+                  </p>
+                </div>
+                <div class="course-item__links">
+                  <a class="ext-links course-item__ext-link" href="#"
+                    >Записаться</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="other-grid">
+            <div class="course-item">
+              <h4 class="course-item__name">Корейский язык</h4>
+              <ul class="req-list">
+                <li class="req-list__item">
+                  <img
+                    class="req-list__pic"
+                    src="<%=require('./images/courses/ppl.png')%>"
+                  />группы 8+ лет
+                </li>
+                <li class="req-list__item">
+                  <img
+                    class="req-list__pic"
+                    src="<%=require('./images/courses/clock.png')%>"
+                  />блоки по 3 месяца
+                </li>
+              </ul>
+              <ul class="tag-list">
+                <li class="tag-list__tag">разговорный язык</li>
+                <li class="tag-list__tag">письмо</li>
+                <li class="tag-list__tag">изучение культуры</li>
+              </ul>
+              <div class="course-item__descr">
+                <p class="course-item__paragraph">
+                  Мы запускаем курс для новичков. На нем участники научатся
+                  читать, писать и вести диалоги на корейском. Студенты узнают
+                  об истории и культуре Кореи и особенностях в общении.
+                </p>
+              </div>
+              <div class="course-item__links">
+                <a class="ext-links course-item__ext-link" href="#"
+                  >Записаться</a
+                >
+              </div>
+            </div>
+            <div class="course-item">
+              <h4 class="course-item__name">Английский язык</h4>
+              <ul class="req-list">
+                <li class="req-list__item">
+                  <img
+                    class="req-list__pic"
+                    src="<%=require('./images/courses/ppl.png')%>"
+                  />группы 6+ лет, 10+ лет, взрослые
+                </li>
+                <li class="req-list__item">
+                  <img
+                    class="req-list__pic"
+                    src="<%=require('./images/courses/clock.png')%>"
+                  />блоки по 3 месяца
+                </li>
+              </ul>
+              <ul class="tag-list">
+                <li class="tag-list__tag">разговорный язык</li>
+                <li class="tag-list__tag">акценты</li>
+                <li class="tag-list__tag">создание резюме</li>
+                <li class="tag-list__tag">сленг</li>
+              </ul>
+              <div class="course-item__descr">
+                <p class="course-item__paragraph">
+                  Мы не только учим грамматике, но и смотрим фильмы, привыкаем
+                  к сленгу и деловой переписке, читаем статьи и общаемся онлайн
+                  с носителями языка из разных стран!
+                </p>
+              </div>
+              <div class="course-item__links">
+                <a class="ext-links course-item__ext-link" href="#"
+                  >Записаться</a
+                >
+              </div>
+            </div>
+            <div class="course-item">
+              <h4 class="course-item__name">3D технологии</h4>
+              <ul class="req-list">
+                <li class="req-list__item">
+                  <img
+                    class="req-list__pic"
+                    src="<%=require('./images/courses/ppl.png')%>"
+                  />группы 8+ лет
+                </li>
+                <li class="req-list__item">
+                  <img
+                    class="req-list__pic"
+                    src="<%=require('./images/courses/clock.png')%>"
+                  />блоки по 3 месяца
+                </li>
+              </ul>
+              <ul class="tag-list">
+                <li class="tag-list__tag">3D моделирование</li>
+                <li class="tag-list__tag">3D печать</li>
+                <li class="tag-list__tag">работа в команде</li>
+                <li class="tag-list__tag">проект</li>
+              </ul>
+              <div class="course-item__descr">
+                <p class="course-item__paragraph">
+                  Cтуденты освоят программы моделирования, сканирования и печати
+                  на 3D-принтере. К завершению курса студенты сами напечатают
+                  настоящие предметы.
+                </p>
+              </div>
+              <div class="course-item__links">
+                <a class="ext-links course-item__ext-link" href="#"
+                  >Записаться</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="course-price">
+            <h4 class="course-price__title">Стоимость курсов 3500 руб./мес.</h4>
+            <div class="course-price__list course-price__list_included">
+              <p class="course-price__list-name">Что входит в стоимость?</p>
+              <ul class="descr-list">
+                <li class="descr-list__item">2 занятия в неделю по 2 часа</li>
+                <li class="descr-list__item">Небольшие группы до 10 чел.</li>
+                <li class="descr-list__item">
+                  1 личная консультация в месяц для студентов курсов
+                </li>
+                <li class="descr-list__item">
+                  Снэки, вода, чай на нашей кухне
+                </li>
+                <li class="descr-list__item">
+                  1 консультация для родителей о курсе и достижениях студентов
+                </li>
+              </ul>
+            </div>
+            <div class="course-price__list course-price__list_not-included">
+              <p class="course-price__list-name">Что не входит в стоимость?</p>
+              <ul class="descr-list">
+                <li class="descr-list__item_cross">
+                  Трансфер из вашего аула к центру
+                </li>
+                <li class="descr-list__item_cross">Индивидуальные занятия</li>
+                <li class="descr-list__item_cross">
+                  Ежегодный членский взнос в размере 1 500 ₽ (оплачивается
+                  раз в год в начале курса)
+                </li>
+              </ul>
+            </div>
+            <a class="ext-links course-price__ext-link" href="#"
+              >Оплатить курсы</a
+            >
+          </div>
+        </section>
+        <section class="about" id="about">
           <h2 class="about__title">О нас</h2>
           <h3 class="about__subtitle">
             Мы привозим лучшие практики неформального образования для тех,
@@ -142,9 +484,7 @@
           <div class="partners__logo-box"></div>
         </section>
       </main>
-      <footer class="footer page__footer">
-        <p class="footer__text">&copy; 2020 Mesto Russia</p>
-      </footer>
+      <footer class="footer page__footer"></footer>
       <template id="photo-grid__item">
         <li class="photo-grid__element-container">
           <button class="photo-grid__delete" type="button"></button>
@@ -181,6 +521,77 @@
           />
         </a>
       </template>
+      <div class="popup popup-course">
+        <div class="popup-course__item">
+          <h4 class="popup-course__name">Python Start</h4>
+          <ul class="req-list req-list_wrap">
+            <li class="req-list__item">
+              <img class="req-list__pic" src="<%=require('./images/courses/circle.png')%>" />группы 8+ лет
+            </li>
+            <li class="req-list__item">
+              <img class="req-list__pic" src="<%=require('./images/courses/circle.png')%>" />блоки по 3 месяца
+            </li>
+          </ul>
+          <ul class="tag-list">
+            <li class="tag-list__tag">язык Python</li>
+            <li class="tag-list__tag">разработка своих проектов</li>
+            <li class="tag-list__tag">создание своего портфолио</li>
+            <li class="tag-list__tag">создание web-сайтов</li>
+          </ul>
+          <div class="popup-course__descr">
+            <p class="popup-course__paragraph">
+              Студенты к концу курса будут сами создавать приложения. А
+              ещё они научатся:
+            </p>
+            <div class="popup-course__grid">
+              <ul class="descr-list">
+                <li class="descr-list__item">Разбираться в основах алгоритмики
+                  и объектно-ориентированного программирования
+                </li>
+                <li class="descr-list__item">Разрабатывать графические
+                  интерактивные
+                  игры для ПК, используя библиотеку PyGame
+                </li>
+                <li class="descr-list__item">Работать с графикой и использовать
+                  библиотеку Turtle
+                </li>
+                <li class="descr-list__item">Решать реальные задачи, используя
+                  Python,
+                  и применять итеративный подход
+                </li>
+                <li class="descr-list__item">Применять принципы проектной работы
+                  при создании проектов
+                </li>
+              </ul>
+              <ul class="descr-list">
+                <li class="descr-list__item">Писать и читать код на языке Python
+                  и работать со структурами данных
+                </li>
+                <li class="descr-list__item">Разрабатывать сложные игры
+                  и приложения
+                  для ПК, используя библиотеки PyGame и PyQT
+                </li>
+                <li class="descr-list__item">Проектировать интерфейсы
+                </li>
+                <li class="descr-list__item">Автоматизировать работу
+                  с графическими
+                  файлами
+                </li>
+                <li class="descr-list__item">Работать в команде и создавать
+                  проекты
+                  от идеи до их публичной презентации
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="popup-course__links">
+            <a class="ext-links popup-course__ext-link" href="#">Записаться</a>
+            <button class="popup__close-btn popup-course__close-btn">
+              Закрыть
+            </button>
+          </div>
+        </div>
+      </div>
       <div class="popup popup-partner">
         <div class="popup-partner__container">
           <div class="popup-partner__logo-box">

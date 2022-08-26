@@ -1,0 +1,15 @@
+.ext-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #252525;
+}
+
+.ext-links:hover {
+  background-color: #333;
+}
