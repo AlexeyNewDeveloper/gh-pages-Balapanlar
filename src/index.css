@@ -48,6 +48,7 @@
 @import url(./blocks/intro/__ext-link/intro__ext-link.css);
 @import url(./blocks/intro/__description/intro__description.css);
 @import url(./blocks/telegram-box/telegram-box.css);
+@import url(./blocks/telegram-box/_mobile/telegram-box_mobile.css);
 @import url(./blocks/telegram-box/__pic/telegram-box__pic.css);
 @import url(./blocks/telegram-box/__text/telegram-box__text.css);
 @import url(./blocks/telegram-box/__ext-link/telegram-box__ext-link.css);
@@ -71,11 +72,10 @@
 @import url(./blocks/tag-list/__tag/tag-list__tag.css);
 @import url(./blocks/course-item/__descr/course-item__descr.css);
 @import url(./blocks/course-item/__paragraph/course-item__paragraph.css);
-@import url(./blocks/ord-list/ord-list.css);
 @import url(./blocks/course-item/__links/course-item__links.css);
 @import url(./blocks/course-item/__ext-link/course-item__ext-link.css);
 @import url(./blocks/course-item/__browse/course-item__browse.css);
-@import url(./blocks/other-grid/other-grid.css);
+@import url(./blocks/courses/__other/courses__other.css);
 @import url(./blocks/course-price/course-price.css);
 @import url(./blocks/course-price/__title/course-price__title.css);
 @import url(./blocks/course-price/__ext-link/course-price__ext-link.css);
@@ -86,6 +86,7 @@
 @import url(./blocks/descr-list/descr-list.css);
 @import url(./blocks/descr-list/__item/descr-list__item.css);
 @import url(./blocks/descr-list/__item/_cross/descr-list__item_cross.css);
+@import url(./blocks/descr-list/_popup/descr-list_popup.css);
 
 /* Block about */
 
@@ -135,7 +136,6 @@
 @import url(./blocks/popup-course/__name/popup-course__name.css);
 @import url(./blocks/popup-course/__descr/popup-course__descr.css);
 @import url(./blocks/popup-course/__paragraph/popup-course__paragraph.css);
-@import url(./blocks/popup-course/__grid/popup-course__grid.css);
 @import url(./blocks/popup-course/__links/popup-course__links.css);
 @import url(./blocks/popup-course/__ext-link/popup-course__ext-link.css);
 @import url(./blocks/popup-course/__close-btn/popup-course__close-btn.css);

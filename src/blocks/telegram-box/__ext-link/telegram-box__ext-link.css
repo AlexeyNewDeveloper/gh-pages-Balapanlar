@@ -3,3 +3,15 @@
   border-radius: 50px;
   margin: 10px;
 }
+
+@media screen and (max-width: 1024px) {
+  .telegram-box__ext-link {
+    margin: 20px
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .telegram-box__ext-link {
+    margin-bottom: 30px;
+  }
+}

@@ -13,6 +13,7 @@
   width: 100%;
   max-height: 100vh;
   margin: 15px;
+  gap: 30px;
 }
 
 @media screen and (max-width: 1420px) {

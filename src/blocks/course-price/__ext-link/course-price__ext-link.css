@@ -12,13 +12,3 @@
   grid-row-start: 2;
   grid-row-end: 2;
 }
-
-@media screen and (max-width: 665px) {
-  .course-price__ext-link {
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 4;
-    grid-row-end: 4;
-    margin-top: 10px;
-  }
-}

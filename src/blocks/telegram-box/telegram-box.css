@@ -5,10 +5,18 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  max-width: 83.33%;
+  width: 80%;
+  max-width: 1200px;
+  min-width: 500px;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 780px) {
+  .telegram-box {
+    border-radius: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
   .telegram-box {
     display: none;
   }

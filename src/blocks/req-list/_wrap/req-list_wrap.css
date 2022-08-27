@@ -1,5 +1,4 @@
 .req-list_wrap {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: -10px;
+  flex-direction: row;
+  gap: 30px;
 }

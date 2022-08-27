@@ -32,7 +32,7 @@
           </label>
           <ul class="header__menu-links">
             <li class="header__menu-links-item">
-              <a class="header__menu-links-link" href="#">Наши курсы</a>
+              <a class="header__menu-links-link" href="#courses">Наши курсы</a>
             </li>
             <li class="header__menu-links-item">
               <a class="header__menu-links-link" href="#">О нас</a>
@@ -61,15 +61,23 @@
               Досуг&nbsp;и&nbsp;курсы для&nbsp;детей
               в&nbsp;аулах&nbsp;и&nbsp;сёлах
             </h1>
-            <a class="ext-links intro__ext-link" href="#">Записаться на курсы</a>
+            <a class="ext-links intro__ext-link" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform">Записаться на курсы</a>
             <div class="telegram-box">
               <img class="telegram-box__pic" src="<%=require('./images/intro/telegram-pic.png')%>" alt="Досуговый центр «Уя»">
               <p class="telegram-box__text">
                 Следите за последними анонсами и событиями “Уя” в нашем Telegram
                 канале
               </p>
-              <a class="ext-links telegram-box__ext-link" href="#">Подписаться</a>
+              <a class="ext-links telegram-box__ext-link" href="https://t.me/balapanlar">Подписаться</a>
             </div>
+          </div>
+          <div class="telegram-box telegram-box_mobile">
+            <img class="telegram-box__pic" src="<%=require('./images/intro/telegram-pic.png')%>" alt="Досуговый центр «Уя»">
+            <p class="telegram-box__text">
+              Следите за последними анонсами и событиями “Уя” в нашем Telegram
+              канале
+            </p>
+            <a class="ext-links telegram-box__ext-link" href="https://t.me/balapanlar">Подписаться</a>
           </div>
           <p class="intro__description">
             Каждый ребёнок талантлив по-своему. Наша цель — дать детям
@@ -93,10 +101,10 @@
                 <h4 class="course-item__name">Python Start</h4>
                 <ul class="req-list">
                   <li class="req-list__item">
-                    <img class="req-list__pic" src="<%=require('./images/courses/ppl.png')%>">группы 8+ лет
+                    <img class="req-list__pic" src="<%=require('./images/courses/ppl.png')%>" alt="Условие">группы 8+ лет
                   </li>
                   <li class="req-list__item">
-                    <img class="req-list__pic" src="<%=require('./images/courses/clock.png')%>">блоки по 3 месяца
+                    <img class="req-list__pic" src="<%=require('./images/courses/clock.png')%>" alt="Условие">блоки по 3 месяца
                   </li>
                 </ul>
                 <ul class="tag-list">
@@ -110,83 +118,14 @@
                     Студенты к концу курса будут сами создавать приложения. А
                     ещё они научатся:
                   </p>
-  
-                  <ol class="ord-list">
-                    <li class="ord-list__item">
-                      Разбираться в основах алгоритмики и объектно-ориентированного программирования...
+                  <ul class="descr-list">
+                    <li class="descr-list__item">Разбираться в основах алгоритмики
+                      и объектно-ориентированного программирования...
                     </li>
-                  </ol>
-  
-                  <!--
-                      <ul class="descr-list">
-                        <li class="descr-list__item">
-                          <img
-                              class="descr-list__pic"
-                              src="./images/courses/arrow.png"
-                            />Разбираться в основах алгоритмики и объектно-ориентированного программирования
-                        </li>
-                        <li class="descr-list__item">
-                          <img
-                              class="descr-list__pic"
-                              src="./images/courses/arrow.png"
-                            />Разрабатывать графические интерактивные игры для ПК, используя библиотеку PyGame
-                        </li>
-                        <li class="descr-list__item">
-                          <img
-                              class="descr-list__pic"
-                              src="./images/courses/arrow.png"
-                            />Работать с графикой и использовать библиотеку Turtle
-                        </li>
-                        <li class="descr-list__item">
-                          <img
-                              class="descr-list__pic"
-                              src="./images/courses/arrow.png"
-                            />Решать реальные задачи, используя Python, и применять итеративный подход
-                        </li>
-                        <li class="descr-list__item">
-                          <img
-                              class="descr-list__pic"
-                              src="./images/courses/arrow.png"
-                            />Применять принципы проектной работы при создании проектов
-                        </li>
-                      </ul>
-                      <ul class="descr-list">
-                        <li class="descr-list__item">
-                          <img
-                              class="descr-list__pic"
-                              src="./images/courses/arrow.png"
-                            />Писать и читать код на языке Python и работать со структурами данных
-                        </li>
-                        <li class="descr-list__item">
-                          <img
-                              class="descr-list__pic"
-                              src="./images/courses/arrow.png"
-                            />Разрабатывать сложные игры и приложения для ПК, используя библиотеки PyGame и PyQT
-                        </li>
-                        <li class="descr-list__item">
-                          <img
-                              class="descr-list__pic"
-                              src="./images/courses/arrow.png"
-                            />Проектировать интерфейсы
-                        </li>
-                        <li class="descr-list__item">
-                          <img
-                              class="descr-list__pic"
-                              src="./images/courses/arrow.png"
-                            />Автоматизировать работу с графическими файлами
-                        </li>
-                        <li class="descr-list__item">
-                          <img
-                              class="descr-list__pic"
-                              src="./images/courses/arrow.png"
-                            />Работать в команде и создавать проекты от идеи до их публичной презентации
-                        </li>
-                      </ul>    
-                      -->
-  
+                  </ul>
                 </div>
                 <div class="course-item__links">
-                  <a class="ext-links course-item__ext-link" href="#">Записаться</a>
+                  <a class="ext-links course-item__ext-link" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform">Записаться</a>
                   <button class="course-item__browse">
                     Смотреть все навыки
                   </button>
@@ -196,10 +135,10 @@
                 <h4 class="course-item__name">Создание web-сайтов</h4>
                 <ul class="req-list">
                   <li class="req-list__item">
-                    <img class="req-list__pic" src="<%=require('./images/courses/ppl.png')%>" />группы 11–13 лет
+                    <img class="req-list__pic" src="<%=require('./images/courses/ppl.png')%>" alt="Условие">группы 11–13 лет
                   </li>
                   <li class="req-list__item">
-                    <img class="req-list__pic" src="<%=require('./images/courses/clock.png')%>" />1 год, блоками по 3 месяца
+                    <img class="req-list__pic" src="<%=require('./images/courses/clock.png')%>" alt="Условие">1 год, блоками по 3 месяца
                   </li>
                 </ul>
                 <ul class="tag-list">
@@ -216,20 +155,20 @@
                     и актуальный навык.</p>
                 </div>
                 <div class="course-item__links">
-                  <a class="ext-links course-item__ext-link" href="#">Записаться</a>
+                  <a class="ext-links course-item__ext-link" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform">Записаться</a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="other-grid">
+          <div class="courses__other">
             <div class="course-item">
               <h4 class="course-item__name">Корейский язык</h4>
               <ul class="req-list">
                 <li class="req-list__item">
-                  <img class="req-list__pic" src="<%=require('./images/courses/ppl.png')%>" />группы 8+ лет
+                  <img class="req-list__pic" src="<%=require('./images/courses/ppl.png')%>" alt="Условие">группы 8+ лет
                 </li>
                 <li class="req-list__item">
-                  <img class="req-list__pic" src="<%=require('./images/courses/clock.png')%>" />блоки по 3 месяца
+                  <img class="req-list__pic" src="<%=require('./images/courses/clock.png')%>" alt="Условие">блоки по 3 месяца
                 </li>
               </ul>
               <ul class="tag-list">
@@ -244,17 +183,17 @@
                 </p>
               </div>
               <div class="course-item__links">
-                <a class="ext-links course-item__ext-link" href="#">Записаться</a>
+                <a class="ext-links course-item__ext-link" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform">Записаться</a>
               </div>
             </div>
             <div class="course-item">
               <h4 class="course-item__name">Английский язык</h4>
               <ul class="req-list">
                 <li class="req-list__item">
-                  <img class="req-list__pic" src="<%=require('./images/courses/ppl.png')%>" />группы 6+ лет, 10+ лет, взрослые
+                  <img class="req-list__pic" src="<%=require('./images/courses/ppl.png')%>" alt="Условие">группы 6+ лет, 10+ лет, взрослые
                 </li>
                 <li class="req-list__item">
-                  <img class="req-list__pic" src="<%=require('./images/courses/clock.png')%>" />блоки по 3 месяца
+                  <img class="req-list__pic" src="<%=require('./images/courses/clock.png')%>" alt="Условие">блоки по 3 месяца
                 </li>
               </ul>
               <ul class="tag-list">
@@ -270,17 +209,17 @@
                 </p>
               </div>
               <div class="course-item__links">
-                <a class="ext-links course-item__ext-link" href="#">Записаться</a>
+                <a class="ext-links course-item__ext-link" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform">Записаться</a>
               </div>
             </div>
             <div class="course-item">
               <h4 class="course-item__name">3D технологии</h4>
               <ul class="req-list">
                 <li class="req-list__item">
-                  <img class="req-list__pic" src="<%=require('./images/courses/ppl.png')%>" />группы 8+ лет
+                  <img class="req-list__pic" src="<%=require('./images/courses/ppl.png')%>" alt="Условие">группы 8+ лет
                 </li>
                 <li class="req-list__item">
-                  <img class="req-list__pic" src="<%=require('./images/courses/clock.png')%>" />блоки по 3 месяца
+                  <img class="req-list__pic" src="<%=require('./images/courses/clock.png')%>" alt="Условие">блоки по 3 месяца
                 </li>
               </ul>
               <ul class="tag-list">
@@ -296,7 +235,7 @@
                 </p>
               </div>
               <div class="course-item__links">
-                <a class="ext-links course-item__ext-link" href="#">Записаться</a>
+                <a class="ext-links course-item__ext-link" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform">Записаться</a>
               </div>
             </div>
           </div>
@@ -337,7 +276,7 @@
                 </li>
               </ul>
             </div>
-            <a class="ext-links course-price__ext-link" href="#">Оплатить курсы</a>
+            <a class="ext-links course-price__ext-link" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform">Оплатить курсы</a>
           </div>
         </section>
         <section class="about">
@@ -427,9 +366,6 @@
           <div class="partners__logo-box"></div>
         </section>
       </main>
-      <footer class="footer page__footer">
-        <p class="footer__text">&copy; 2020 Mesto Russia</p>
-      </footer>
       <template id="photo-grid__item">
         <li class="photo-grid__element-container">
           <button class="photo-grid__delete" type="button"></button>
@@ -471,10 +407,10 @@
           <h4 class="popup-course__name">Python Start</h4>
           <ul class="req-list req-list_wrap">
             <li class="req-list__item">
-              <img class="req-list__pic" src="<%=require('./images/courses/circle.png')%>" />группы 8+ лет
+              <img class="req-list__pic" src="<%=require('./images/courses/ppl.png')%>" alt="Условие">группы 8+ лет
             </li>
             <li class="req-list__item">
-              <img class="req-list__pic" src="<%=require('./images/courses/circle.png')%>" />блоки по 3 месяца
+              <img class="req-list__pic" src="<%=require('./images/courses/clock.png')%>" alt="Условие">блоки по 3 месяца
             </li>
           </ul>
           <ul class="tag-list">
@@ -488,49 +424,47 @@
               Студенты к концу курса будут сами создавать приложения. А
               ещё они научатся:
             </p>
-            <div class="popup-course__grid">
-              <ul class="descr-list">
-                <li class="descr-list__item">Разбираться в основах алгоритмики
-                  и объектно-ориентированного программирования
-                </li>
-                <li class="descr-list__item">Разрабатывать графические
-                  интерактивные
-                  игры для ПК, используя библиотеку PyGame
-                </li>
-                <li class="descr-list__item">Работать с графикой и использовать
-                  библиотеку Turtle
-                </li>
-                <li class="descr-list__item">Решать реальные задачи, используя
-                  Python,
-                  и применять итеративный подход
-                </li>
-                <li class="descr-list__item">Применять принципы проектной работы
-                  при создании проектов
-                </li>
-              </ul>
-              <ul class="descr-list">
-                <li class="descr-list__item">Писать и читать код на языке Python
-                  и работать со структурами данных
-                </li>
-                <li class="descr-list__item">Разрабатывать сложные игры
-                  и приложения
-                  для ПК, используя библиотеки PyGame и PyQT
-                </li>
-                <li class="descr-list__item">Проектировать интерфейсы
-                </li>
-                <li class="descr-list__item">Автоматизировать работу
-                  с графическими
-                  файлами
-                </li>
-                <li class="descr-list__item">Работать в команде и создавать
-                  проекты
-                  от идеи до их публичной презентации
-                </li>
-              </ul>
-            </div>
+            <ul class="descr-list descr-list_popup">
+              <li class="descr-list__item">Разбираться в основах алгоритмики
+                и объектно-ориентированного программирования
+              </li>
+              <li class="descr-list__item">Разрабатывать графические
+                интерактивные
+                игры для ПК, используя библиотеку PyGame
+              </li>
+              <li class="descr-list__item">Работать с графикой и использовать
+                библиотеку Turtle
+              </li>
+              <li class="descr-list__item">Решать реальные задачи, используя
+                Python,
+                и применять итеративный подход
+              </li>
+              <li class="descr-list__item">Применять принципы проектной работы
+                при создании проектов
+              </li>
+            </ul>
+            <ul class="descr-list descr-list_popup">
+              <li class="descr-list__item">Писать и читать код на языке Python
+                и работать со структурами данных
+              </li>
+              <li class="descr-list__item">Разрабатывать сложные игры
+                и приложения
+                для ПК, используя библиотеки PyGame и PyQT
+              </li>
+              <li class="descr-list__item">Проектировать интерфейсы
+              </li>
+              <li class="descr-list__item">Автоматизировать работу
+                с графическими
+                файлами
+              </li>
+              <li class="descr-list__item">Работать в команде и создавать
+                проекты
+                от идеи до их публичной презентации
+              </li>
+            </ul>
           </div>
           <div class="popup-course__links">
-            <a class="ext-links popup-course__ext-link" href="#">Записаться</a>
+            <a class="ext-links popup-course__ext-link" href="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform">Записаться</a>
             <button class="popup__close-btn popup-course__close-btn">
               Закрыть
             </button>
