@@ -1,20 +1,19 @@
 .header__hamburger-menu {
     display: flex;
-    /* margin-inline-start: auto; */
     inline-size: 100%;
     align-items: center;
   }
 
-  @media screen and (max-width: 1300px) {
-    .header__hamburger-menu {
-      inline-size: auto;
-      margin-inline-start: auto;
-    }
+@media screen and (max-width: 1300px) {
+  .header__hamburger-menu {
+    inline-size: auto;
+    margin-inline-start: auto;
   }
+}
 
-  @media screen and (max-width: 550px) {
-    .header__hamburger-menu {
-      inline-size: auto;
-      block-size: 100%;
-    }
+@media screen and (max-width: 1110px) {
+  .header__hamburger-menu {
+    block-size: 100%;
   }
+}
+

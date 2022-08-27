@@ -17,8 +17,18 @@
     }
   }
 
-  @media screen and (max-width: 933px) {
+  @media screen and (max-width: 1110px) {
     .header__menu-links-link {
-      font-size: 12px;
+      font-size: 30px;
+      line-height: 37px;
+      font-weight: 600;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    .header__menu-links-link {
+      font-size: 18px;
+      line-height: 22px;
+      font-weight: 500;
     }
   }
