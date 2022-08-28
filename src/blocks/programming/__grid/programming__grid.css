@@ -1,13 +1,22 @@
 .programming__grid {
   display: grid;
   flex-direction: row;
-  grid-template-columns: repeat(auto-fit, minmax(366px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 10px;
   padding: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .programming__grid {
+    grid-gap: 20px;
+    padding: 20px;
+  }
 }
 
 @media screen and (max-width: 525px) {
   .programming__grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
   }
 }

@@ -3,9 +3,5 @@
   border: 1px solid black;
   max-width: fit-content;
   padding: 10px;
-  margin: 0 5px 5px 0;
-}
-
-.tag-list__tag:last-of-type {
-  margin-right: 0;
+  margin: 0;
 }

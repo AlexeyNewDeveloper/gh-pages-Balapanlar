@@ -4,6 +4,12 @@
     padding: 22px 20px;
 }
 
+@media screen and (max-width: 1110px) {
+    .header_scroll {
+        padding: 25px 75px;
+    }
+}
+
 
 @media screen and (max-width: 550px) {
     .header_scroll {

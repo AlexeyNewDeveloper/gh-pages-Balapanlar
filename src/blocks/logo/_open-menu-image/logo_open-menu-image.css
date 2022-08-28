@@ -3,3 +3,15 @@
     background-position: center;
 }
 
+
+@media screen and (max-width: 744px) {
+    .logo_open-menu-image {
+        max-inline-size: 150px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .logo_open-menu-image {
+        max-inline-size: 105px;
+    }
+}

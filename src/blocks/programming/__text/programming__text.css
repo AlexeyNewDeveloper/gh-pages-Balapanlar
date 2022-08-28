@@ -9,7 +9,16 @@
   max-width: 804px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+  .programming__text {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 525px) {
   .programming__text {
     font-size: 16px;
     line-height: 20px;
