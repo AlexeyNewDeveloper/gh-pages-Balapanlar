@@ -8,17 +8,20 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
+  gap: 30px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .course-item {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 22px;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 525px) {
   .course-item {
+    font-size: 16px;
+    line-height: 20px;
     border-radius: 30px;
     padding: 15px;
   }

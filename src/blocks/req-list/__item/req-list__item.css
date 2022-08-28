@@ -1,9 +1,4 @@
 .req-list__item {
   display: flex;
-  margin: 0 30px 10px 0;
-}
-
-.req-list__item:last-of-type {
-  display: flex;
-  margin-bottom: 0;
+  margin: 0;
 }

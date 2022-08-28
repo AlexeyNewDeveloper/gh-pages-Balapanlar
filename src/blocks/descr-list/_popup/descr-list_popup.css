@@ -1,0 +1,10 @@
+.descr-list_popup {
+  margin-top: 30px;
+  gap: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+  .descr-list_popup {
+    gap: 30px;
+  }
+}

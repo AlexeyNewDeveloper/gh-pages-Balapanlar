@@ -1,0 +1,19 @@
+.courses__other {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+@media screen and (max-width: 1300px) {
+  .courses__other {
+    flex-direction: column;
+    margin: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .courses__other {
+    margin: 10px;
+  }
+}

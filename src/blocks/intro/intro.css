@@ -3,6 +3,12 @@
   min-width: 320px;
 }
 
+@media screen and (max-width: 500px) {
+  .intro {
+    margin-top: 5px;
+  }
+}
+
 @media screen and (max-width: 325px) {
   .intro {
     max-width: 100%;

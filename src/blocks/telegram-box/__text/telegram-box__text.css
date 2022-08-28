@@ -9,7 +9,16 @@
 
 @media screen and (max-width: 865px) {
   .telegram-box__text {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .telegram-box__text {
+    min-width: 240px;
+    width: 75%;
+    margin: 15px auto 15px;
+    text-align: center;
   }
 }
