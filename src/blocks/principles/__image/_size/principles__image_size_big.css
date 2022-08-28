@@ -1,0 +1,11 @@
+.principles__image_size_big {
+    width: 610px;
+    height: 420px;
+}
+
+@media screen and (max-width: 760px) {
+    .principles__image_size_big {
+        width: 420px;
+        border-radius: 50%;
+    }
+}
