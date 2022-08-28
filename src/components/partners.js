@@ -1,7 +1,5 @@
-const ESC_CODE = "Escape";
-//const partnerImage = document.querySelector(".partners__partner-logo");
-export const partnerPopup = document.querySelector(".popup-partner");
-const partnerCloseBtn = document.querySelector(".popup-partner__close-btn");
+import { openPopup } from './utils.js';
+import { partnerPopup } from './constants.js';
 
 export const partnersList = [
   {
@@ -21,33 +19,6 @@ export const partnersList = [
   },
 ];
 
-//открытие попапов-партнеров
-function openPopupPartner(popupElement) {
-  popupElement.classList.add("popup-partner_opened");
-
-  document.addEventListener("keydown", closeByEsc);
-}
-
-//закрытие попапов-партнеров
-
-partnerCloseBtn.addEventListener("click", () =>
-  closePopupPartner(partnerPopup)
-);
-
-export function closePopupPartner(popupElement) {
-  popupElement.classList.remove("popup-partner_opened");
-
-  document.removeEventListener("keydown", closeByEsc);
-}
-
-//закрытие попапов при щелке Esc
-function closeByEsc(evt) {
-  if (evt.key === ESC_CODE) {
-    const openedPopup = document.querySelector(".popup-partner_opened");
-    closePopupPartner(openedPopup);
-  }
-}
-
 //Добавление Лого партнеров на основную страницу сайта
 
 function renderPartners(partnerImage, partnerAbout) {
@@ -63,7 +34,7 @@ function renderPartners(partnerImage, partnerAbout) {
     document.querySelector(".popup-partner__logo-img").src = partnerImage;
     document.querySelector(".popup-partner__text").textContent = partnerAbout;
 
-    openPopupPartner(partnerPopup);
+    openPopup(partnerPopup);
   });
 
   return partnerLink;

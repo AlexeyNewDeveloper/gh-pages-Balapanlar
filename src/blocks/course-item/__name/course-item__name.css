@@ -14,11 +14,3 @@
     line-height: 37px;
   }
 }
-
-@media screen and (max-width: 500px) {
-  .course-item__name {
-    letter-spacing: -0.5px;
-    font-size: 7.500vw;
-    line-height: 9.063vw;
-  }
-}
