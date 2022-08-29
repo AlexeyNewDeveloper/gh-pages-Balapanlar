@@ -1,5 +1,35 @@
 .header__menu-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
     margin: 0;
-    margin-inline-start: 248px;
-    transition: margin-inline-start 0.5s ease-in-out;
+    align-items: center;
+    margin-inline-start: auto;
 }
+
+
+.header__menu-toggle:checked 
+~ .header__navigation 
+> .header__menu-links {
+    display: block;
+}
+
+@media screen and (max-width: 1300px) {
+    .header__menu-links {
+      inline-size: 100%;
+    }
+  }
+
+  @media screen and (max-width: 1110px) {
+    .header__menu-links {
+      inline-size: auto;
+      margin-inline-start: 0;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    .header__menu-links {
+      display: none;
+    }
+  }
+

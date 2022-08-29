@@ -1,0 +1,16 @@
+.course-item__name {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -1px;
+  color: #000;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .course-item__name {
+    letter-spacing: -0.5px;
+    font-size: 30px;
+    line-height: 37px;
+  }
+}

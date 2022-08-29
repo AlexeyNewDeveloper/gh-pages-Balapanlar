@@ -1,10 +1,22 @@
 import './index.css';
-import imgLogoScroll from '../src/images/logo/logo-scroll.png';
-
-import { enableChangeHeaderByScroll } from './components/header';
+import './components/utils.js';
+import './components/courses.js';
+import { headerElement } from './components/constants.js';
+import { Header } from './components/header.js';
+import {
+  addPartners,
+  partnersList,
+} from "./components/partners";
 import {scroll} from './components/scroll.js'
 
+//Секция с хедером
+const header = new Header({header: headerElement});
+header.enableHeader();
 
-enableChangeHeaderByScroll({newImage: imgLogoScroll});
+//Секция с партнерами
+partnersList.forEach((item) => {
+  const partnersContainer = document.querySelector(".partners__logo-box");
+  addPartners(item, partnersContainer);
+});
 
 scroll();

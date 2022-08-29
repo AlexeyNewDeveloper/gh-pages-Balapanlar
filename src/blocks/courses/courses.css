@@ -1,0 +1,19 @@
+#courses {
+  margin: 0 auto;
+  max-width: 1220px;
+  width: 100%;
+  padding-top: 80px; /* при переходе по якорю хедер теперь не перекрывает заголовок секции */
+  margin-top: -80px;
+}
+
+@media screen and (max-width: 1420px) {
+  #courses {
+    max-width: 88%;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  #courses {
+    max-width: 100%;
+  }
+}

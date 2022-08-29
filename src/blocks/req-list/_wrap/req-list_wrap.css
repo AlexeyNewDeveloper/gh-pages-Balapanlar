@@ -1,0 +1,12 @@
+.req-list_wrap {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .req-list_wrap {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

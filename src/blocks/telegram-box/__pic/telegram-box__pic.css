@@ -1,0 +1,12 @@
+.telegram-box__pic {
+  display: block;
+  width: 22px;
+  height: 22px;
+  margin: 0 10px 0 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .telegram-box__pic {
+    margin: 30px 0 0 0;
+  }
+}

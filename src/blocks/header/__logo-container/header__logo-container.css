@@ -1,0 +1,9 @@
+.header__logo-container {
+    display: flex;
+    flex-basis: 192px;
+    flex-shrink: 0;
+    block-size: 100%;
+    align-items: center;
+    transition: flex-basis 0.15s ease-in-out;
+}
+

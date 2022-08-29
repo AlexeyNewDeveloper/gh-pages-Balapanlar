@@ -1,0 +1,23 @@
+.popup-partner__close-btn {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    transition: opacity .5s linear 0s;
+    background-image: url(../../../images/close-popup-icon.svg);
+    background-size: 32px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1023px) {
+    .popup-partner__close-btn {
+        top: -25px;
+        right: 0px;
+        background-image: url(../../../images/close-popup-icon_white.svg);
+    }
+}

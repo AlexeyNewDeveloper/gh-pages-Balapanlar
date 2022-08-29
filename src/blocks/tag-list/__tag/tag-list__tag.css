@@ -1,0 +1,7 @@
+.tag-list__tag {
+  border-radius: 50px;
+  border: 1px solid black;
+  max-width: fit-content;
+  padding: 10px;
+  margin: 0;
+}
