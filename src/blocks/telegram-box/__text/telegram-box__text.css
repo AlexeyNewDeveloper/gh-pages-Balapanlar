@@ -1,0 +1,24 @@
+.telegram-box__text {
+  color: #fff;
+  margin-right: auto;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.5px;
+}
+
+@media screen and (max-width: 865px) {
+  .telegram-box__text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .telegram-box__text {
+    min-width: 240px;
+    width: 75%;
+    margin: 15px auto 15px;
+    text-align: center;
+  }
+}

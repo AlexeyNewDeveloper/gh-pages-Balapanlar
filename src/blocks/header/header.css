@@ -19,6 +19,14 @@
     }
 }
 
+@media screen and (max-width: 1110px) {
+    .header {
+        padding: 25px 75px;
+        block-size: 80px;
+        justify-content: space-between;
+    }
+}
+
 @media screen and (max-width: 550px) {
     .header {
         padding: 10px 15px;

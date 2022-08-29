@@ -1,0 +1,10 @@
+.programming {
+  background-color: #FFD643;
+  border-radius: 70px;
+}
+
+@media screen and (max-width: 525px) {
+  .programming {
+    border-radius: 40px;
+  }
+}
