@@ -14,3 +14,13 @@
     max-width: 100%;
   }
 }
+
+.intro::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  background-color: #fff;
+  z-index: -1;
+  width: 100%;
+  height: 100px;
+}
