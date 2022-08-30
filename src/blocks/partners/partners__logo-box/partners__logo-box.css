@@ -1,14 +1,13 @@
 .partners__logo-box {
     margin: auto;
     max-width: 885px;
+    padding: 40px 0 58px;
     border: 2px solid #EAF0FF;
     border-radius: 60px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    padding-top: 29px;
-    padding-bottom: 49px;
 }
 
 

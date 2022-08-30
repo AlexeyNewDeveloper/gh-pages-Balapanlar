@@ -143,7 +143,6 @@
 
 /*Block principles */
 
-@import url(./blocks/button/button.css);
 @import url(./blocks/scroll-container/scroll-container.css);
 @import url(./blocks/principles/principles.css);
 @import url(./blocks/principles/__title/principles__title.css);
