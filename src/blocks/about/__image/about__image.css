@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 768px) {
   .about__image {
-    border-radius: 20px;
-    border-bottom-left-radius: 30px;
+    border-radius: 40px;
+    border-bottom-left-radius: 50px;
   }
 }
