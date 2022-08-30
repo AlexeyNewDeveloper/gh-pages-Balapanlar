@@ -1,7 +1,7 @@
 .header__menu-button {
     display: none;
     position: relative;
-    inline-size: 38px;
+    inline-size: 28px;
     block-size: 14px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -11,29 +11,29 @@
   }
 
   .header__menu-toggle:checked ~ .header__menu-button {
-    inline-size: 38px;
-    block-size: 38px;
+    inline-size: 28px;
+    block-size: 28px;
     margin-bottom: auto;
   }
 
-  @media screen and (max-width: 870px) {
-    .header__menu-button {
-      display: flex;
-      margin-inline-start: auto;
-    }
+@media screen and (max-width: 1110px) {
+  .header__menu-button {
+    display: flex;
+    margin-inline-start: auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header__menu-button {
+    inline-size: 22px;
+    block-size: 8px;
   }
 
-  @media screen and (max-width: 550px) {
-    .header__menu-button {
+  .header__menu-toggle:checked ~ .header__menu-button {
       inline-size: 22px;
-      block-size: 8px;
+      block-size: 22px;
+      margin-bottom: auto;
     }
-
-    .header__menu-toggle:checked ~ .header__menu-button {
-        inline-size: 22px;
-        block-size: 22px;
-        margin-bottom: auto;
-      }
-  }
+}
 
  

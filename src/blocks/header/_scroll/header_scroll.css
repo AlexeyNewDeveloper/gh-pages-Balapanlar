@@ -3,3 +3,18 @@
     transition: block-size 0.15s ease-in-out;
     padding: 22px 20px;
 }
+
+@media screen and (max-width: 1110px) {
+    .header_scroll {
+        padding: 25px 75px;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .header_scroll {
+        padding: 10px 15px;
+        block-size: 42px;
+        justify-content: space-between;
+    }
+}

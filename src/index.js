@@ -7,6 +7,7 @@ import {
   addPartners,
   partnersList,
 } from "./components/partners";
+import {scroll} from './components/scroll.js'
 
 //Секция с хедером
 const header = new Header({header: headerElement});
@@ -18,3 +19,4 @@ partnersList.forEach((item) => {
   addPartners(item, partnersContainer);
 });
 
+scroll();

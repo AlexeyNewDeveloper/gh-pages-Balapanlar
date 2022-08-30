@@ -1,0 +1,20 @@
+.principles__image_size_big {
+    width: 610px;
+    height: 420px;
+    border-radius: 500px;
+}
+
+@media screen and (max-width: 760px) {
+    .principles__image_size_big {
+        width: 420px;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .principles__image_size_big {
+        width: 230px;
+        height: 158px;
+        border-radius: 500px;
+    }
+}

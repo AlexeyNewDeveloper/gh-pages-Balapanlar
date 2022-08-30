@@ -18,6 +18,7 @@
 @import url(./blocks/header/__logo-container/_position_center/header__logo-container_position_center.css);
 @import url(./blocks/header/_scroll/header_scroll.css);
 @import url(./blocks/header/_open-menu/header_open-menu.css);
+@import url(./blocks/header/__navigation/header__navigation.css);
 @import url(./blocks/header/__menu-links/header__menu-links.css);
 @import url(./blocks/header/__hamburger-menu/header__hamburger-menu.css);
 @import url(./blocks/header/__menu-image/header__menu-image.css);
@@ -139,3 +140,15 @@
 @import url(./blocks/popup-course/__links/popup-course__links.css);
 @import url(./blocks/popup-course/__ext-link/popup-course__ext-link.css);
 @import url(./blocks/popup-course/__close-btn/popup-course__close-btn.css);
+
+/*Block principles */
+
+@import url(./blocks/button/button.css);
+@import url(./blocks/scroll-container/scroll-container.css);
+@import url(./blocks/principles/principles.css);
+@import url(./blocks/principles/__title/principles__title.css);
+@import url(./blocks/principles/__text/principles__text.css);
+@import url(./blocks/principles/__image/principle__image.css);
+@import url(./blocks/principles/__image/_size/principles__image_size_big.css);
+@import url(./blocks/principles/__image/_size/principles__image_size_midl.css);
+@import url(./blocks/principles/__container/principles__container.css);
