@@ -1,4 +1,4 @@
-.popup-partner__logo-box {
+/* .popup-partner__logo-box {
     background: #FFFFFF;
     border: 2px solid #EAF0FF;
     border-radius: 60px;
@@ -7,4 +7,13 @@
     max-width: 344px;
     height: 239px;
     display: flex;
+} */
+
+@media screen and (max-width: 500px) {
+    .popup-partner__logo-box  {
+        width: 290px;
+        height: 150px;
+        display: flex;
+        margin-top: 30px;
+    }
 }

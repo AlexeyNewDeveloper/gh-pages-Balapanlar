@@ -474,13 +474,11 @@
       </div>
       <div class="popup popup-partner">
         <div class="popup-partner__container">
-          <button class="popup__close-btn"></button>
+          <button class="popup__close-btn popup-partner__close-btn" type="button" aria-label="закрыть">
+          </button>
           <div class="popup-partner__logo-box">
-            <img
-              src="<%=require('./images/logo/partner-logo (3).png')%>"
-              class="popup-partner__logo-img"
-              alt="логотип партнера"
-            />
+            <img src="<%=require('./images/logo/partner-logo (3).png')%>" class="popup-partner__logo-img"
+              alt="логотип партнера" />
           </div>
           <h3 class="popup-partner__text">
             Lecturers Without Borders - сообщество молодых учёных со всего мира,
@@ -489,9 +487,9 @@
             занятия по квази-кристаллам, а в будущем мы планируем привозить
             лекторов в наш центр.
           </h3>
-          <button class="popup__close-btn popup-partner__close-btn">
-            Закрыть
-          </button>
+          <a class="popup-partner__website-link" href=""  target="_blank">
+            Сайт партнёра
+          </a>
         </div>
       </div>
     </div>
