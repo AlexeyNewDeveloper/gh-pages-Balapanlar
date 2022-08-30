@@ -114,7 +114,6 @@
 @import url(./blocks/partners/partners__logo-box/partners__logo-box.css);
 @import url(./blocks/partners/partners__logo-link/partners__logo-link.css);
 @import url(./blocks/partners/partners__partner-logo/partners__partner-logo.css);
-
 @import url(./blocks/popup-partner/popup-partner.css);
 @import url(./blocks/popup-partner/popup-partner__container/popup-partner__container.css);
 @import url(./blocks/popup-partner/popup-partner__logo-box/popup-partner__logo-box.css);
@@ -123,6 +122,13 @@
 @import url(./blocks/popup-partner/popup-partner__сlose-btn/popup-partner__сlose-btn.css);
 @import url(./blocks/popup-partner/popup-partner_opened/popup-partner_opened.css);
 @import url(./blocks/popup-partner/popup-partner__website-link/popup-partner__website-link.css);
+
+/* Popups */
+
+@import url(./blocks/popup/popup.css);
+@import url(./blocks/popup/_opened/popup_opened.css);
+@import url(./blocks/popup/__container/popup__container.css);
+@import url(./blocks/popup/__close-btn/popup__close-btn.css);
 
 /* Course popup */
 

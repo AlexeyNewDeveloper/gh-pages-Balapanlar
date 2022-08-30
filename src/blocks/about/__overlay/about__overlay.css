@@ -9,6 +9,6 @@
 
 @media screen and (max-width: 768px) {
   .about__overlay {
-    border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 40px;
   }
 }

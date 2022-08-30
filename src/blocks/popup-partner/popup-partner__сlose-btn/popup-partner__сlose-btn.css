@@ -5,7 +5,7 @@
     top: 35px;
     right: 35px;
     transition: opacity .5s linear 0s;
-    background-image: url(../../../images/close-popup-icon.svg);
+    background-image: url(../../../images/popup/popup_close.png);
     background-size: 32px;
     background-color: transparent;
     background-repeat: no-repeat;
@@ -18,6 +18,6 @@
     .popup-partner__close-btn {
         top: -25px;
         right: 0px;
-        background-image: url(../../../images/close-popup-icon_white.svg);
+        background-image: url(../../../images/popup/popup_close_white.png);
     }
 }

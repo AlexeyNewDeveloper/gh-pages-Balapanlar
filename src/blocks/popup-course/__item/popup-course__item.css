@@ -12,9 +12,9 @@
   max-width: 1140px;
   min-width: 270px;
   width: 100%;
-  max-height: 100vh;
-  margin: 5% 0 0;
+  margin: auto;
   gap: 30px;
+  overflow: visible;
 }
 
 @media screen and (max-width: 1420px) {
@@ -25,7 +25,6 @@
 
 @media screen and (max-width: 1024px) {
   .popup-course__item {
-    margin-top: 15%;
     max-width: calc(83% - 60px);
     font-size: 16px;
     line-height: 20px;

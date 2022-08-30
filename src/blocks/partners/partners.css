@@ -1,6 +1,12 @@
 .partners {
-    background-color: white;
-    margin: auto;
-    padding-top: 160px;
-    padding-bottom: 10px;
+  background-color: white;
+  margin: auto;
+  padding-top: 160px;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .partners {
+    padding-top: 100px;
+  } 
 }

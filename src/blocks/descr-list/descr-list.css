@@ -11,3 +11,10 @@
   max-width: 536px;
   gap: 10px;
 }
+
+@media screen and (max-width: 476px) {
+  .descr-list {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
