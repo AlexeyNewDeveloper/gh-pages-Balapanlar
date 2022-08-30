@@ -22,5 +22,6 @@
 @media screen and (max-width: 500px) {
   .popup-partner__container {
     max-width: 320px;
+    margin: 0 15px;
   }
 }
