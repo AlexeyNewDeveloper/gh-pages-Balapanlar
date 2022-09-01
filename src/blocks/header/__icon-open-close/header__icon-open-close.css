@@ -7,6 +7,7 @@
     top: 4px;
   }
 
+
 .header__icon-open-close,
 .header__icon-open-close::after {
     display: block;
@@ -16,6 +17,8 @@
     background-color: #383838;
     transition-duration: 0.55s;
 }
+
+
 
 .header__menu-toggle:checked
 ~ .header__menu-button
