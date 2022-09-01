@@ -6,10 +6,10 @@
     background-repeat: no-repeat;
     background-size: contain;
     opacity: 1;
-    transition: opacity 0.15s linear, 
-                inline-size 0.15s ease-in-out, 
-                block-size 0.15s ease-in-out,
-                background-image 0.15s ease-in-out;
+    transition: opacity 0.35s linear, 
+                inline-size 0.35s ease-in-out, 
+                block-size 0.35s ease-in-out,
+                background-image 0.3s linear;
 }
 
 

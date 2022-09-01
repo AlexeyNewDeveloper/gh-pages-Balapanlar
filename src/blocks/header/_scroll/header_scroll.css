@@ -1,6 +1,6 @@
 .header_scroll {
     block-size: 80px;
-    transition: block-size 0.15s ease-in-out;
+    transition: block-size 0.3s linear;
     padding: 22px 20px;
 }
 
