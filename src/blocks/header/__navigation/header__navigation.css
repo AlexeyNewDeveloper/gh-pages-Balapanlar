@@ -29,3 +29,10 @@
       margin: 0;
     }
   }
+
+@media screen and (max-height: 700px) {
+  .header__menu-toggle:checked ~ .header__navigation {
+    max-height: calc(100vh - 168px); /* отнял у высоты окна просмотра устройства размер статичного хедера с логотипом(168px) */
+    overflow-y: auto;
+  }
+}
