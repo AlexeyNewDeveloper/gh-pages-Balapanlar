@@ -1,0 +1,36 @@
+.header {
+    position: sticky;
+    top: 0px;
+    block-size: 120px;
+    inline-size: 100%;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    transition: block-size 0.3s linear;
+    z-index: 2;
+}
+
+
+@media screen and (max-width: 869px) {
+    .header {
+        block-size: 90px;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .header {
+        padding: 25px 75px;
+        block-size: 80px;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .header {
+        padding: 10px 15px;
+        block-size: 42px;
+        justify-content: space-between;
+    }
+}

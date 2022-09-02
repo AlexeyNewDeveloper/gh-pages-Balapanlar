@@ -1,0 +1,20 @@
+.header_scroll {
+    block-size: 80px;
+    transition: block-size 0.3s linear;
+    padding: 22px 20px;
+}
+
+@media screen and (max-width: 1110px) {
+    .header_scroll {
+        padding: 25px 75px;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .header_scroll {
+        padding: 10px 15px;
+        block-size: 42px;
+        justify-content: space-between;
+    }
+}

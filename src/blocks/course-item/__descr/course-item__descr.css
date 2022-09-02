@@ -1,0 +1,5 @@
+.course-item__descr {
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

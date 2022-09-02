@@ -1,0 +1,11 @@
+.principles__image_size_midl {
+    width: 420px;
+    height: 420px;
+}
+
+@media screen and (max-width: 450px) {
+    .principles__image_size_midl {
+        width: 230px;
+        height: 230px;
+    }
+}

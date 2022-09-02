@@ -1,0 +1,40 @@
+.principles {
+    max-width: 1440px;
+    background-color: #AE46FF;
+    height: 100vh;
+    max-height: 1000px;
+    margin: 0 -5px 0 0;
+}
+
+.principles:first-child {
+   border-radius: 60px 0 0 60px;
+}
+
+.principles:last-child {
+    border-radius: 0 60px 60px 0;
+    padding: 0 0 160px 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 760px) {
+    .principles {
+        margin: 0 0 -5px 0;
+        height: auto;
+    }
+
+    .principles:first-child {
+        border-radius: 60px 60px 0 0;
+    }
+
+    .principles:last-child {
+        border-radius: 0 0 60px 60px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .principles:last-child {
+        border-radius: 0 0 30px 30px;
+        padding-bottom: 30px;
+        margin: 0;
+    }
+}

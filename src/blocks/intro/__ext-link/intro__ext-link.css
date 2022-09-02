@@ -1,0 +1,30 @@
+.intro__ext-link {
+  padding: 35px 45px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: -0.5px;
+  background-color: #FF7628;
+  margin-bottom: auto;
+}
+
+.intro__ext-link:hover {
+  background-color: #FF8540;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__ext-link {
+    padding: 35px 45px;
+    font-size: 28px;
+    line-height: 34px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .intro__ext-link {
+    padding: 16px 22px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,14 @@
+.about__overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom-left-radius: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  .about__overlay {
+    border-bottom-left-radius: 40px;
+  }
+}

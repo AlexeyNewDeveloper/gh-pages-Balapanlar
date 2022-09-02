@@ -1,0 +1,26 @@
+.intro {
+  margin: 10px auto 0;
+  min-width: 320px;
+}
+
+.intro::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  background-color: #fff;
+  z-index: -1;
+  width: 100%;
+  height: 200px;
+}
+
+@media screen and (max-width: 500px) {
+  .intro {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .intro {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,14 @@
+.principles__image {
+    object-fit: cover;
+    
+}
+
+.principles__image:first-child {
+    margin-top: 176px;
+}
+
+@media screen and (max-width: 450px) {
+    .principles__image:first-child {
+        margin-top: 60px;
+    }
+}

@@ -1,0 +1,11 @@
+.page {
+    font-family: 'Montserrat' , Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    background-color: #EAF0FF;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    inline-size: 100%;
+    color: #000;
+}

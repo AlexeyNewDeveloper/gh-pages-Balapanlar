@@ -1,0 +1,38 @@
+.header__navigation {
+    margin-inline-start: auto;
+    display: flex;
+    inline-size: 100%;
+}
+
+.header__menu-toggle:checked ~ .header__navigation {
+    position: absolute;
+    top: 99%; /* При 100% появляется щель, сквозь которую просвечивается контент. Нужно сдвинуть чуть вверх */
+    left: 0;
+    visibility: visible;
+    display: block;
+    inline-size: 100%;
+    padding-block-end: 83px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: white;
+}
+
+@media screen and (max-width: 550px) {
+    .header__menu-toggle:checked ~ .header__navigation {
+        padding-block-end: 30px;
+    }
+  }
+
+@media screen and (max-width: 1110px) {
+    .header__navigation {
+      inline-size: auto;
+      margin: 0;
+    }
+  }
+
+@media screen and (max-height: 700px) {
+  .header__menu-toggle:checked ~ .header__navigation {
+    max-height: calc(100vh - 168px); /* отнял у высоты окна просмотра устройства размер статичного хедера с логотипом(168px) */
+    overflow-y: auto;
+  }
+}

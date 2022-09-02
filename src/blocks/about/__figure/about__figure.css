@@ -1,0 +1,13 @@
+.about__figure {
+  aspect-ratio: 595 / 524;
+  margin: 0 0 40px;
+  position: relative;
+  width: 100%;
+  font-size: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .about__figure {
+    margin: 0 0 30px;
+  }
+}

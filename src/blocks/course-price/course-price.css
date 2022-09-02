@@ -1,0 +1,27 @@
+.course-price {
+  background-color: #D0DDFF;
+  border-radius: 60px;
+  color: #000;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 0 10px;
+  padding: 30px;
+  margin: 10px 15px 120px;
+}
+
+@media screen and (max-width: 1024px) {
+  .course-price {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 10px 20px 80px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .course-price {
+    column-gap: 0;
+    margin: 10px 15px 80px;
+  }
+}

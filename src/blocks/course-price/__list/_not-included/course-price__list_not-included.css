@@ -1,0 +1,5 @@
+.course-price__list_not-included {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}

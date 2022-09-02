@@ -1,0 +1,15 @@
+.about__list {
+  max-width: 464px;
+  margin: 0 25px 0 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  .about__list {
+    margin: 0 0 60px;
+    padding: 0 0 0 35px;
+  }
+}

@@ -1,0 +1,11 @@
+.header_open-menu {
+    block-size: 168px;
+    padding-block-end: 0;
+}
+
+
+@media screen and (max-width: 550px) {
+    .header_open-menu {
+        block-size: 110px;
+    }
+}

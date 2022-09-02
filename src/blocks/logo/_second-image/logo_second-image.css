@@ -1,0 +1,26 @@
+.logo_second-image {
+    background-image: url(../../../images/logo/logo-scroll.png);
+    inline-size: 192px;
+    block-size: 36px;
+    opacity: 1;
+    transition: opacity 0.35s linear, 
+                inline-size 0.35s ease-in-out, 
+                block-size 0.35s ease-in-out, 
+                background-image 0.3s linear;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .logo_second-image {
+        inline-size: 165px;
+        block-size: 100%;
+    }
+}
+
+
+@media screen and (max-width: 560px) {
+    .logo_second-image {
+        block-size: 100%;
+        background-position: left;
+    }
+}
