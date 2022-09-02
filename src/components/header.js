@@ -1,5 +1,3 @@
-import { head } from 'lodash';
-
 
 
 export class Header {
@@ -86,8 +84,7 @@ export class Header {
                 this.headerLogoContainer.classList.add('header__logo-container_position_center');
                 this.headerLogo.classList.add('logo_open-menu-image');
                 this.header.classList.add('header_open-menu');
-                // this.headerMenuLinks.classList.add('header__menu-links_open-menu');
-                // this.headerMenuLinksItem.classList.add('header__menu-links-item_open-menu');
+
 
                 // Если был скролл
                 if (this.scrollFlag) {
@@ -100,8 +97,7 @@ export class Header {
                 this.headerLogoContainer.classList.remove('header__logo-container_position_center');
                 this.headerLogo.classList.remove('logo_open-menu-image');
                 this.header.classList.remove('header_open-menu');
-                // this.headerMenuLinks.classList.remove('header__menu-links_open-menu');
-                // this.headerMenuLinksItem.classList.remove('header__menu-links-item_open-menu');
+
 
                 // Если был скролл
                 if (this.scrollFlag) {
@@ -112,8 +108,6 @@ export class Header {
             } else if (window.matchMedia('(min-width: 1110px)').matches 
             && !this.menuToggle.checked) {
                 this.header.classList.add('header_open-menu');
-                // this.headerMenuLinks.classList.add('header__menu-links_open-menu');
-                // this.headerMenuLinksItem.classList.add('header__menu-links-item_open-menu');
 
                 // Если был скролл
                 if (this.scrollFlag) {
@@ -124,8 +118,6 @@ export class Header {
             } else if (window.matchMedia('(min-width: 1110px)').matches 
             && this.menuToggle.checked) {
                 this.header.classList.remove('header_open-menu');
-                // this.headerMenuLinks.classList.remove('header__menu-links_open-menu');
-                // this.headerMenuLinksItem.classList.remove('header__menu-links-item_open-menu');
 
                 // Если был скролл
                 if (this.scrollFlag) {
